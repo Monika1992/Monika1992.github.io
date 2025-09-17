@@ -27,14 +27,22 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 - Řešíte s kolegyní Petrou Dížkovou
 
 ## Seminární práce z klimatologie
-- Řešíte se mnou a především v průběhu cvičení
+- Řešíte se mnou a především v průběhu cvičení - začneme příště
+- Na příští cvičení přijďte s nainstalovaným a funkčním MS Excel (https://tech.mendelu.cz/25346-instalace-baliku-microsoft) nebo nějakou variantou typu LibreOffice
+
 
 # Cvičení 02 (02.10.2025) - Zadání seminární práce z klimatologie
 - WiFi přístup v učebně A49
 - Postupnou prací na cvičeních vytvoříme obsah seminární práce kterou na konci pouze zkompletujete a zašlete ke kontrole - tedy pokud stíháte a pracujete na cvičeních nebo se doptáte tak máte na konci hotovo bez další práce
 - Výběr stanice ze stránek ČHMÚ
 - Stažení dat k měsíční teplotě
-- 
+- CO mám dělat když něco nevím nebo nestíhám?
+    - Ptám se na cvičení
+    - Ptám se spolužáků
+    - Ptám se Googlu nebo AI
+- Zdroje:
+  - (OS Windows) Klávesové zkratky a mapa znaků pro českou klávesnici: http://www.ceskaklavesnice.cz/zkratky 
+  - 
 
 # Cvičení 03 (09.10.2025) - Radiační bilance
 
