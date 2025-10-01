@@ -3,37 +3,32 @@ Cílem seminární práce je osvojit si základy práce s klimatologickými čas
 
 Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scénáři připravenými Ústavem výzkumu globální změny AV ČR, v. v. i. (CzechGlobe). Data budoucích klimatických podmínek jsou k dispozici zde.
 
-# Cvičení 01 (25.09.2025) - Úvod a zadání seminární práce z fenologie
-  - Můj kontaktní email je hlavsova.m@czechglobe.cz, najdete mě v kanceláři N5064 po předchozí domluvě
-  - Cvičení doplní přednášky o praktické dovednosti
-  - Na každém cvičení budete potřebovat připojení k internetu a počítač s funkčním MS Excel
-    - WiFi přístup v učebně A49: SSID: tp_50, heslo: bio217@1
-  - Pro udělení zápočtu potřebujete splnit seminární práci z fenologie, seminární práci z klimatologie a mít splněnou docházku (maximálně 2 absence)
+# Základní informace
+- Můj kontaktní email je hlavsova.m@czechglobe.cz, najdete mě v kanceláři N5064 po předchozí domluvě
+- Kontakt pro seminární práci z fenologie je Ing. Petra Dížková
+- Na každé cvičení potřebuju notebook, MS Excel s dokončenou prací z minulého cvičení
 
-## Plán cvičení
-** Zadání a příklady vždycky dostupné zde: https://monika1992.github.io/ **
-  - Cvičení 03 (09.10.2025) - Radiační bilance
-  - Cvičení 04 (16.10.2025) - Energetická bilance
-  - Cvičení 05 (23.10.2025) - Změna klimatu
-  - Cvičení 06 (30.10.2025) - Teplota vzduchu
-  - Cvičení 07 (06.11.2025) - Charakteristické dny
-  - Cvičení 08 (13.11.2025) - Vlhkost vzduchu a výpar
-  - Cvičení 09 (20.11.2025) - Srážky
-  - Cvičení 10 (27.11.2025) - Sucho
-  - Cvičení 11 (04.12.2025) - Tlak a vítr
-  - Cvičení 12 (11.12.2025) - Kontrola seminárních prací a zápočty
+## Jak dostanu zápočet
+- Splním 3 úkoly:
+  - Seminární práce z fenologie
+  - Seminární práce z klimatologie
+  - Docházka (max 2 absence)   
 
-## Seminární práce z fenologie
-- Řešíte s kolegyní Petrou Dížkovou
+## Co potřebuji pro práci ve cvičení
+- WI-FI - ideálně EDUROAM ([ZDE najdu jak se připojit](https://eduroam.mendelu.cz/25350-navody-k-instalaci))
+- MS Excel ([ZDE najdu jak ho získám](https://tech.mendelu.cz/25346-instalace-baliku-microsoft))
 
-## Seminární práce z klimatologie
-- Řešíte se mnou a především v průběhu cvičení - začneme příště
-- Na příští cvičení přijďte s nainstalovaným a funkčním MS Excel (https://tech.mendelu.cz/25346-instalace-baliku-microsoft) nebo nějakou variantou typu LibreOffice
+## Co mám dělat když něco nevím nebo nestíhám?
+  - Ptám se na cvičení
+  - Ptám se spolužáků
+  - Ptám se Googlu nebo AI
 
+---
 
-# Cvičení 02 (02.10.2025) - Zadání seminární práce z klimatologie
+# Cvičení 02 (02.10.2025) - Zadání seminární práce z klimatologie, získání dat
 
-- WiFi přístup v učebně A49 - využijte ideálně EDUORAM
+- Cílem cvičení je vybrat si stanici se kterou budu v rámci semestru pracovat a získat výchozí data pro další práci
+- __Na konci cvičení mám MS Excel soubor s měsíčními daty pro průměrné teploty vzduchu a sumy srážek pro mojí vybranou stanici__
 
 ## DŮLEŽITÉ ODKAZY ##
 - Mapa stanic Českého hydrometeorologického úřadu: [Mapa stanic ZDE](https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html)
@@ -71,23 +66,10 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   4.5 Sloupec "VALUE" přejmenuji na TAVG
   4.6 Zopakuji postup pro srážky (hodnota "SUM" ze sloupce F "MDFUNCTION")
 
-- CO mám dělat když něco nevím nebo nestíhám?
-    - Ptám se na cvičení
-    - Ptám se spolužáků
-    - Ptám se Googlu nebo AI
-- Zdroje:
-  - (OS Windows) Klávesové zkratky a mapa znaků pro českou klávesnici: http://www.ceskaklavesnice.cz/zkratky 
- 
-Získání měsíčních dat ze staničních měření ČHMÚ
-- Vyberu si s pomocí mapy stanici, kterou budu chtít celý semestr zpracovávat (Kuchařovice) - T
-  - Vyfiltruji stanice, které mají 
-  - Jméno a ID stanice
-  - Podívám se od kdy do kdy stanice měří
-- ČHMÚ poskytuje
-- Tabulka metadata
-- data-monthly-
-  - temperature, precipitation, sunshine   
+## Další zdroje:
+  - (OS Windows) Klávesové zkratky a mapa znaků pro českou klávesnici: [ZDE](http://www.ceskaklavesnice.cz/zkratky) 
 
+---
 
 # Cvičení 03 (09.10.2025) - Radiační bilance
 
