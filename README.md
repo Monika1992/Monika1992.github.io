@@ -1,11 +1,3 @@
----
-layout: default  # or whatever your layout is
----
-
-<style>
-  .site-header, .site-title, .page-header { display:none !important; }
-</style>
-
 # Zadání seminární práce
 Cílem seminární práce je osvojit si základy práce s klimatologickými časovými řadami. V rámci práce budou využita volně dostupná pozorovaná data Českého hydrometeorologického ústavu (ČHMÚ). Data jsou k dispozici v denním či měsíčním časovém kroku.
 
