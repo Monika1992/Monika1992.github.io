@@ -15,7 +15,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   - Docházka (max 2 absence)   
 
 ## Co potřebuji pro práci ve cvičení
-- WI-FI - ideálně EDUROAM ([ZDE najdu jak se připojit](https://eduroam.mendelu.cz/25350-navody-k-instalaci))
+- Wi-Fi - ideálně EDUROAM ([ZDE najdu jak se připojit](https://eduroam.mendelu.cz/25350-navody-k-instalaci))
 - MS Excel ([ZDE najdu jak ho získám](https://tech.mendelu.cz/25346-instalace-baliku-microsoft))
 
 ## Co mám dělat když něco nevím nebo nestíhám?
