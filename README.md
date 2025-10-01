@@ -10,7 +10,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 ## Jak dostanu zápočet
 - Splním 3 úkoly:
-  - Seminární práce z fenologie
+  - Seminární práce z fenologie (MUSÍM SE REGISTROVAT [TADY](http://www.fenofaze.cz/extranet/cs/sign/up-student/))
   - Seminární práce z klimatologie
   - Docházka (max 2 absence)   
 
@@ -23,7 +23,6 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   - Ptám se spolužáků
   - Ptám se Googlu nebo AI
 
----
 <details markdown="1">
 <summary> Cvičení 02 </summary>
 
