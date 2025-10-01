@@ -25,7 +25,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 ---
 <details>
-<summary>Cvičení 02 (02.10.2025) - Zadání seminární práce z klimatologie, získání dat</summary>
+<summary> # Cvičení 02 (02.10.2025) - Zadání seminární práce z klimatologie, získání dat</summary>
 
 # Cvičení 02 (02.10.2025) - Zadání seminární práce z klimatologie, získání dat
 
