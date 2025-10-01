@@ -68,6 +68,9 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
      - 4.5 Sloupec "VALUE" přejmenuji na TAVG
      - 4.6 Zopakuji postup pro srážky (hodnota "SUM" ze sloupce F "MDFUNCTION")
 
+5. Bonus
+     - 5.1 Z dat srážek a průměrných denních teplot si vytvořím jednoduchý spojnicový graf a podívám se na průběh hodnot v čase
+       
 ## Další zdroje:
   - (OS Windows) Klávesové zkratky a mapa znaků pro českou klávesnici: [ZDE](http://www.ceskaklavesnice.cz/zkratky) 
 </details>
