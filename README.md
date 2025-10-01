@@ -36,18 +36,29 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 - WiFi přístup v učebně A49 - využijte ideálně EDUORAM
 
 ## DŮLEŽITÉ ODKAZY ##
-- Mapa stanic Českého hydrometeorologického úřadu: 
-- Datový repozitář ČHMÚ: 
-- Metadatový soubor pro vyhledání identifikátoru stanic:
+- Mapa stanic Českého hydrometeorologického úřadu: [Mapa stanic ZDE](https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html)
+- Metadatový soubor pro vyhledání identifikátoru stanic: [Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
+- Datový repozitář ČHMÚ: [Datový repozitář ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/)
 
 ## Postup získání dat ##
 
 1. Na mapě stanic vyberu stanici [Mapa stanic ZDE](https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html)
-  a) V legendě vyberu stanice podle legendy: 
+  1.1 V legendě vyberu stanice podle legendy (zakliknu T a SRA a hledám stanici kde se obě veličiny sledují)
+  1.2 Každý student ve skupině si vybere jinou stanici
+  1.3 Zapamatuji (opíšu si) z mapy ID stanice (např. B2KUCH01) a jméno
+
+2. Stáhnu si z odkazu soubor s metadaty o stanicích ([Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
+  2.1 Otevřu metadatový soubor v MS Excel
+  2.2 Vyhledám svoji vybranou stanici pomocí jména či ID stanice
+  2.3 Ověřím že stanice měří kontinuálně od roku 1961, pokud ne, raději zvolím jinou
+  2.4 Poznačím si interní kód stanice (sloupec A "WSI")
+  2.5 Poznačím si souřadnice stanice (sloupce F "GEOGR1" a G "GEOGR2") a nadmořskou výšku (sloupec H "ELEVATION")
+
+3. Vrátím se na stránky datového repozitáře [Datový repozitář ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/)
+  3.1 Volím složku monthly
+  3.2 Budeme pracovat se dvěma složkami - __temperature__ a __precipitation__
 
 
-- Výběr stanice ze stránek ČHMÚ
-- Stažení dat k měsíční teplotě
 - CO mám dělat když něco nevím nebo nestíhám?
     - Ptám se na cvičení
     - Ptám se spolužáků
