@@ -5,7 +5,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 # Základní informace
 - Můj kontaktní email je hlavsova.m@czechglobe.cz, najdete mě v kanceláři N5064 po předchozí domluvě
-- Kontakt pro seminární práci z fenologie je Ing. Petra Dížková
+- Kontakt pro seminární práci z fenologie je Ing. Petra Dížková (dizkova.p@czechglobe.cz)
 - Na každé cvičení potřebuju notebook, MS Excel s dokončenou prací z minulého cvičení
 
 ## Jak dostanu zápočet
