@@ -40,9 +40,9 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 0. Pro práci ve cvičení a na seminární práci vytvořím nový MS Excel soubor, který pojmenuju jako __PrijmeniJmeno_AgroMeteo.xlsx__ (uložím si ho, vím kde je, budu ho potřebovat každé cvičení)
 
 1. Na mapě stanic vyberu stanici [Mapa stanic ZDE](https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html)
-    1.1 V legendě vyberu stanice podle legendy (zakliknu T a SRA a hledám stanici kde se obě veličiny sledují)
-    1.2 Každý student ve skupině si vybere jinou stanici
-    1.3 Zapamatuji (opíšu si) z mapy ID stanice (např. B2KUCH01) a jméno
+     - 1.1 V legendě vyberu stanice podle legendy (zakliknu T a SRA a hledám stanici kde se obě veličiny sledují)
+     - 1.2 Každý student ve skupině si vybere jinou stanici
+     - 1.3 Zapamatuji (opíšu si) z mapy ID stanice (např. B2KUCH01) a jméno
 
 2. Stáhnu si z odkazu soubor s metadaty o stanicích ([Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
   2.1 Otevřu metadatový soubor v MS Excel
