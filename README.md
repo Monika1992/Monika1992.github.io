@@ -32,8 +32,20 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 
 # Cvičení 02 (02.10.2025) - Zadání seminární práce z klimatologie
-- WiFi přístup v učebně A49
-- Postupnou prací na cvičeních vytvoříme obsah seminární práce kterou na konci pouze zkompletujete a zašlete ke kontrole - tedy pokud stíháte a pracujete na cvičeních nebo se doptáte tak máte na konci hotovo bez další práce
+
+- WiFi přístup v učebně A49 - využijte ideálně EDUORAM
+
+## DŮLEŽITÉ ODKAZY ##
+- Mapa stanic Českého hydrometeorologického úřadu: 
+- Datový repozitář ČHMÚ: 
+- Metadatový soubor pro vyhledání identifikátoru stanic:
+
+## Postup získání dat ##
+
+1. Na mapě stanic vyberu stanici [Mapa stanic ZDE](https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html)
+  a) V legendě vyberu stanice podle legendy: 
+
+
 - Výběr stanice ze stránek ČHMÚ
 - Stažení dat k měsíční teplotě
 - CO mám dělat když něco nevím nebo nestíhám?
@@ -42,7 +54,17 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
     - Ptám se Googlu nebo AI
 - Zdroje:
   - (OS Windows) Klávesové zkratky a mapa znaků pro českou klávesnici: http://www.ceskaklavesnice.cz/zkratky 
-  - 
+ 
+Získání měsíčních dat ze staničních měření ČHMÚ
+- Vyberu si s pomocí mapy stanici, kterou budu chtít celý semestr zpracovávat (Kuchařovice) - T
+  - Vyfiltruji stanice, které mají 
+  - Jméno a ID stanice
+  - Podívám se od kdy do kdy stanice měří
+- ČHMÚ poskytuje
+- Tabulka metadata
+- data-monthly-
+  - temperature, precipitation, sunshine   
+
 
 # Cvičení 03 (09.10.2025) - Radiační bilance
 
