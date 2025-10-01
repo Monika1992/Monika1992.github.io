@@ -24,6 +24,8 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   - Ptám se Googlu nebo AI
 
 ---
+<details>
+<summary>Cvičení 02 (02.10.2025) - Zadání seminární práce z klimatologie, získání dat</summary>
 
 # Cvičení 02 (02.10.2025) - Zadání seminární práce z klimatologie, získání dat
 
@@ -52,7 +54,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
      - 2.5 Poznačím si souřadnice stanice (sloupce F "GEOGR1" a G "GEOGR2") a nadmořskou výšku (sloupec H "ELEVATION")
 
 3. Vrátím se na stránky datového repozitáře [Datový repozitář ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/)
-     - 3.1 Volím složku monthly
+     - 3.1 Volím složku __monthly__
      - 3.2 Budeme pracovat se dvěma složkami - __temperature__ a __precipitation__ (postup bude stejný, začneme teplotou)
      - 3.3 Nyní využiji svůj interní kód stanice (_viz. bod 2.4_) a pomocí něj vyhledám příslušné soubory (__CTRL+F__)
      - 3.4 Zajímá nás pouze soubor označený "T" (Nezajímá: TMA, TMI, TMInoc, TPM) a ten stáhneme
@@ -69,6 +71,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 ## Další zdroje:
   - (OS Windows) Klávesové zkratky a mapa znaků pro českou klávesnici: [ZDE](http://www.ceskaklavesnice.cz/zkratky) 
 
+</details>
 ---
 
 # Cvičení 03 (09.10.2025) - Radiační bilance
