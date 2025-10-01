@@ -82,8 +82,8 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 # Cvičení 04 (16.10.2025) - Energetická bilance
 </details>
   
-<details> Cvičení 05 </summary>
-<summary> 
+<details> 
+<summary> Cvičení 05 </summary>
 # Cvičení 05 (23.10.2025) - Změna klimatu
 </details>
   
