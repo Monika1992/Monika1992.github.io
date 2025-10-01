@@ -46,7 +46,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
      - 2.2 Každý student ve skupině si vybere jinou stanici
      - 2.3 Zapamatuji (opíšu si) z mapy ID stanice (např. B2KUCH01) a jméno
 
-3. Stáhnu si z odkazu soubor s metadaty o stanicích ([Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
+3. Stáhnu si z odkazu soubor s metadaty o stanicích [Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
      - 3.1 Otevřu metadatový soubor v MS Excel
      - 3.2 Vyhledám svoji vybranou stanici pomocí jména či ID stanice
      - 3.3 Ověřím že stanice měří kontinuálně od roku 1961, pokud ne, raději zvolím jinou
@@ -57,7 +57,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
      - 4.1 Volím složku __monthly__
      - 4.2 Budeme pracovat se dvěma složkami - __temperature__ a __precipitation__ (postup bude stejný, začneme teplotou)
      - 4.3 Nyní využiji svůj interní kód stanice (_viz. bod 3.4_) a pomocí něj vyhledám příslušné soubory (__CTRL+F__)
-     - 4.4 Zajímá nás pouze soubor označený "T" (Nezajímá: TMA, TMI, TMInoc, TPM) a ten stáhneme
+     - 4.4 Zajímá nás pouze soubor označený "T" (Nezajímá nás: TMA, TMI, TMInoc, TPM) a ten stáhneme
      - 4.5 Zopakuji postup získání dat pro srážky
    
 5. Příprava vstupních dat
