@@ -1,0 +1,14 @@
+---
+# leave this YAML front matter so Pages processes Sass
+---
+
+@import "{{ site.theme }}";
+
+/* Minima theme */
+.site-title, .site-header { display: none !important; }
+
+/* Cayman theme */
+.page-header .project-name,
+.page-header { display: none !important; }
+
+/* Slate/other themes often reuse .site-title */
