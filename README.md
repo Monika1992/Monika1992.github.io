@@ -25,7 +25,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 ---
 <details>
-<summary> # Cvičení 02 (02.10.2025) - Zadání seminární práce z klimatologie, získání dat</summary>
+<summary> Cvičení 02 </summary>
 
 # Cvičení 02 (02.10.2025) - Zadání seminární práce z klimatologie, získání dat
 
@@ -70,28 +70,56 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 ## Další zdroje:
   - (OS Windows) Klávesové zkratky a mapa znaků pro českou klávesnici: [ZDE](http://www.ceskaklavesnice.cz/zkratky) 
-
 </details>
----
 
+<details>
+<summary> Cvičení 03 </summary>
 # Cvičení 03 (09.10.2025) - Radiační bilance
-
+</details>
+  
+<details>
+<summary> Cvičení 04 </summary>
 # Cvičení 04 (16.10.2025) - Energetická bilance
-
+</details>
+  
+<details> Cvičení 05 </summary>
+<summary> 
 # Cvičení 05 (23.10.2025) - Změna klimatu
-
+</details>
+  
+<details>
+<summary> Cvičení 06 </summary>
 # Cvičení 06 (30.10.2025) - Teplota vzduchu
-
+</details>
+  
+<details>
+<summary> Cvičení 07 </summary>
 # Cvičení 07 (06.11.2025) - Charakteristické dny
-
+</details>
+  
+<details>
+<summary> Cvičení 08 </summary>
 # Cvičení 08 (13.11.2025) - Vlhkost vzduchu a výpar
-
+</details>
+  
+<details>
+<summary> Cvičení 09 </summary>
 # Cvičení 09 (20.11.2025) - Srážky
-
+</details>
+  
+<details>
+<summary> Cvičení 10 </summary>
 # Cvičení 10 (27.11.2025) - Sucho
-
+</details>
+  
+<details>
+<summary> Cvičení 11 </summary>
 # Cvičení 11 (04.12.2025) - Tlak a vítr
-
+</details>
+  
+<details>
+<summary> Cvičení 12 </summary>
 # Cvičení 12 (11.12.2025) - Kontrola seminárních prací a zápočty
+</details>
 
 
