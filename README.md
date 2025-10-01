@@ -42,6 +42,8 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 ## Postup získání dat ##
 
+0. Pro práci ve cvičení a na seminární práci vytvořím nový MS Excel soubor, který pojmenuju jako __PrijmeniJmeno_AgroMeteo.xlsx__ (uložím si ho, vím kde je, budu ho potřebovat každé cvičení)
+
 1. Na mapě stanic vyberu stanici [Mapa stanic ZDE](https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html)
   1.1 V legendě vyberu stanice podle legendy (zakliknu T a SRA a hledám stanici kde se obě veličiny sledují)
   1.2 Každý student ve skupině si vybere jinou stanici
@@ -56,8 +58,18 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 3. Vrátím se na stránky datového repozitáře [Datový repozitář ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/)
   3.1 Volím složku monthly
-  3.2 Budeme pracovat se dvěma složkami - __temperature__ a __precipitation__
-
+  3.2 Budeme pracovat se dvěma složkami - __temperature__ a __precipitation__ (postup bude stejný, začneme teplotou)
+  3.3 Nyní využiji svůj interní kód stanice (_viz. bod 2.4_) a pomocí něj vyhledám příslušné soubory (__CTRL+F__)
+  3.4 Zajímá nás pouze soubor označený "T" (Nezajímá: TMA, TMI, TMInoc, TPM) a ten stáhneme
+  3.5 Zopakuji postup získání dat pro srážky
+   
+4. Příprava vstupních dat
+  4.1 Otevřu stažený CSV soubor v MS Excel
+  4.2 Rozdělíme data do sloupců
+  4.3 U teploty nezapomenu vyfiltrovat pouze průměrné hodnoty ("AVG" - sloupce E a F): výsledkem jsou měsíční hodnoty průměrné teploty vzduchu ve všech letech dostupných pro moji stanici
+  4.4 Data ze sloupců C ("YEAR"), D ("MONTH") a G ("VALUE") zkopíruji do připraveného Excelu (viz krok 0) na první list
+  4.5 Sloupec "VALUE" přejmenuji na TAVG
+  4.6 Zopakuji postup pro srážky (hodnota "SUM" ze sloupce F "MDFUNCTION")
 
 - CO mám dělat když něco nevím nebo nestíhám?
     - Ptám se na cvičení
