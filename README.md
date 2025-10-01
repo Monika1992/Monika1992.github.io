@@ -4,7 +4,7 @@ Cílem seminární práce je osvojit si základy práce s klimatologickými čas
 Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scénáři připravenými Ústavem výzkumu globální změny AV ČR, v. v. i. (CzechGlobe). Data budoucích klimatických podmínek jsou k dispozici zde.
 
 # Základní informace
-- Můj kontaktní email je hlavsova.m@czechglobe.cz, najdete mě v kanceláři N5064 po předchozí domluvě
+- Můj kontaktní email je monika.hlavsova@mendelu.cz, najdete mě v kanceláři N5064 po předchozí domluvě
 - Kontakt pro seminární práci z fenologie je Ing. Petra Dížková (dizkova.p@czechglobe.cz)
 - Na každé cvičení potřebuju notebook, MS Excel s dokončenou prací z minulého cvičení
 
