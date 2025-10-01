@@ -39,37 +39,37 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 ## Postup získání dat ##
 
-0. Pro práci ve cvičení a na seminární práci vytvořím nový MS Excel soubor, který pojmenuju jako __PrijmeniJmeno_AgroMeteo.xlsx__ (uložím si ho, vím kde je, budu ho potřebovat každé cvičení)
+1. Pro práci ve cvičení a na seminární práci vytvořím nový MS Excel soubor, který pojmenuju jako __PrijmeniJmeno_AgroMeteo.xlsx__ (uložím si ho, vím kde je, budu ho potřebovat každé cvičení)
 
-1. Na mapě stanic vyberu stanici [Mapa stanic ZDE](https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html)
-     - 1.1 V legendě vyberu stanice podle legendy (zakliknu T a SRA a hledám stanici kde se obě veličiny sledují)
-     - 1.2 Každý student ve skupině si vybere jinou stanici
-     - 1.3 Zapamatuji (opíšu si) z mapy ID stanice (např. B2KUCH01) a jméno
+2. Na mapě stanic vyberu stanici [Mapa stanic ZDE](https://www.chmi.cz/files/portal/docs/poboc/OS/stanice/ShowStations_CZ.html)
+     - 2.1 V legendě vyberu stanice podle legendy (zakliknu T a SRA a hledám stanici kde se obě veličiny sledují)
+     - 2.2 Každý student ve skupině si vybere jinou stanici
+     - 2.3 Zapamatuji (opíšu si) z mapy ID stanice (např. B2KUCH01) a jméno
 
-2. Stáhnu si z odkazu soubor s metadaty o stanicích ([Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
-     - 2.1 Otevřu metadatový soubor v MS Excel
-     - 2.2 Vyhledám svoji vybranou stanici pomocí jména či ID stanice
-     - 2.3 Ověřím že stanice měří kontinuálně od roku 1961, pokud ne, raději zvolím jinou
-     - 2.4 Poznačím si interní kód stanice (sloupec A "WSI")
-     - 2.5 Poznačím si souřadnice stanice (sloupce F "GEOGR1" a G "GEOGR2") a nadmořskou výšku (sloupec H "ELEVATION")
+3. Stáhnu si z odkazu soubor s metadaty o stanicích ([Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
+     - 3.1 Otevřu metadatový soubor v MS Excel
+     - 3.2 Vyhledám svoji vybranou stanici pomocí jména či ID stanice
+     - 3.3 Ověřím že stanice měří kontinuálně od roku 1961, pokud ne, raději zvolím jinou
+     - 3.4 Poznačím si interní kód stanice (sloupec A "WSI")
+     - 3.5 Poznačím si souřadnice stanice (sloupce F "GEOGR1" a G "GEOGR2") a nadmořskou výšku (sloupec H "ELEVATION")
 
-3. Vrátím se na stránky datového repozitáře [Datový repozitář ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/)
-     - 3.1 Volím složku __monthly__
-     - 3.2 Budeme pracovat se dvěma složkami - __temperature__ a __precipitation__ (postup bude stejný, začneme teplotou)
-     - 3.3 Nyní využiji svůj interní kód stanice (_viz. bod 2.4_) a pomocí něj vyhledám příslušné soubory (__CTRL+F__)
-     - 3.4 Zajímá nás pouze soubor označený "T" (Nezajímá: TMA, TMI, TMInoc, TPM) a ten stáhneme
-     - 3.5 Zopakuji postup získání dat pro srážky
+4. Vrátím se na stránky datového repozitáře [Datový repozitář ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/)
+     - 4.1 Volím složku __monthly__
+     - 4.2 Budeme pracovat se dvěma složkami - __temperature__ a __precipitation__ (postup bude stejný, začneme teplotou)
+     - 4.3 Nyní využiji svůj interní kód stanice (_viz. bod 3.4_) a pomocí něj vyhledám příslušné soubory (__CTRL+F__)
+     - 4.4 Zajímá nás pouze soubor označený "T" (Nezajímá: TMA, TMI, TMInoc, TPM) a ten stáhneme
+     - 4.5 Zopakuji postup získání dat pro srážky
    
-4. Příprava vstupních dat
-     - 4.1 Otevřu stažený CSV soubor v MS Excel
-     - 4.2 Rozdělíme data do sloupců
-     - 4.3 U teploty nezapomenu vyfiltrovat pouze průměrné hodnoty ("AVG" - sloupce E a F): výsledkem jsou měsíční hodnoty průměrné teploty vzduchu ve všech letech dostupných pro moji stanici
-     - 4.4 Data ze sloupců C ("YEAR"), D ("MONTH") a G ("VALUE") zkopíruji do připraveného Excelu (viz krok 0) na první list
-     - 4.5 Sloupec "VALUE" přejmenuji na TAVG
-     - 4.6 Zopakuji postup pro srážky (hodnota "SUM" ze sloupce F "MDFUNCTION")
+5. Příprava vstupních dat
+     - 5.1 Otevřu stažený CSV soubor v MS Excel
+     - 5.2 Rozdělíme data do sloupců
+     - 5.3 U teploty nezapomenu vyfiltrovat pouze průměrné hodnoty ("AVG" - sloupce E a F): výsledkem jsou měsíční hodnoty průměrné teploty vzduchu ve všech letech dostupných pro moji stanici
+     - 5.4 Data ze sloupců C ("YEAR"), D ("MONTH") a G ("VALUE") zkopíruji do připraveného Excelu (viz __Krok 1__) na první list
+     - 5.5 Sloupec "VALUE" přejmenuji na TAVG
+     - 5.6 Zopakuji postup pro srážky (hodnota "SUM" ze sloupce F "MDFUNCTION")
 
-5. Bonus
-     - 5.1 Z dat srážek a průměrných denních teplot si vytvořím jednoduchý spojnicový graf a podívám se na průběh hodnot v čase
+6. Bonus
+     - 6.1 Z dat srážek a průměrných denních teplot si vytvořím jednoduchý spojnicový graf a podívám se na průběh hodnot v čase
        
 ## Další zdroje:
   - (OS Windows) Klávesové zkratky a mapa znaků pro českou klávesnici: [ZDE](http://www.ceskaklavesnice.cz/zkratky) 
