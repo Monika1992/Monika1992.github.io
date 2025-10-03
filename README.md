@@ -44,6 +44,8 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
      - 2.1 V legendě vyberu stanice podle legendy (zakliknu T a SRA a hledám stanici kde se obě veličiny sledují)
      - 2.2 Každý student ve skupině si vybere jinou stanici
      - 2.3 Zapamatuji (opíšu si) z mapy ID stanice (např. B2KUCH01) a jméno
+     - 2.4 nevybírám si následující stanice (nedostatečná data)
+          - _Žamberk_, _Třebařov_, _Ústí nad Orlicí_, _Jičín_, _Libice nad Doubravou_ 
 
 3. Stáhnu si z odkazu soubor s metadaty o stanicích [Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
      - 3.1 Otevřu metadatový soubor v MS Excel
@@ -60,8 +62,8 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
      - 4.5 Zopakuji postup získání dat pro srážky
    
 5. Příprava vstupních dat
-     - 5.1 Otevřu stažený CSV soubor v MS Excel
-     - 5.2 Rozdělíme data do sloupců
+     - 5.1 Otevřu stažený CSV soubor v MS Excel 
+     - 5.2 Rozdělíme data do sloupců (POZOR NA HODNOTY! - Podívám se do sloupce "VALUE" jestli tam nevidím žádné římské číslice - Excel možná bude převádět vaše čísla na datumy, pokud jo, zavřu soubor a nejdříve upravím data dle bodu "Úprava dat" na konci zadání)
      - 5.3 U teploty nezapomenu vyfiltrovat pouze průměrné hodnoty ("AVG" - sloupce E a F): výsledkem jsou měsíční hodnoty průměrné teploty vzduchu ve všech letech dostupných pro moji stanici
      - 5.4 Data ze sloupců C ("YEAR"), D ("MONTH") a G ("VALUE") zkopíruji do připraveného Excelu (viz __Krok 1__) na první list
      - 5.5 Sloupec "VALUE" přejmenuji na TAVG
@@ -69,7 +71,16 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 6. Bonus
      - 6.1 Z dat srážek a průměrných denních teplot si vytvořím jednoduchý spojnicový graf a podívám se na průběh hodnot v čase
-       
+
+Úprava dat (návod pro Windows):
+- 1: najdu si pomocí průzkumníku souborů stažená data ve formátu csv
+- 2: Pravým tlačítkem myši otevřu na souboru kontextovou nabídku a zvolím "Otevřít v aplikaci poznámkový blok"
+- 3: Data se otevřou v poznámkovém bloku
+- 4: Zmáčknu současně klávesy __CTRL__ a __H__ a otevře si mi nabídka "Najít a nahradit"
+- 5: Nejdříve nahradím všechny symboly čárky (,) za symboly středník (;) a dám "Nahradit vše" (Všechny čárky v souboru by měly nyní být změněny na středníky
+- 6: Pak opakuji postup a nahradím všechny symboly tečky (.) za symboly čárky (,)
+- 7: Uložím soubor (klávesová zkratka __CTRL__ a __S__) a otevřu ho  aplikaci MS Excel - nyní by už mělo být vše v pořádku a pokračuju filtrováním dat (bod 5.3)
+
 ## Další zdroje:
   - (OS Windows) Klávesové zkratky a mapa znaků pro českou klávesnici: [ZDE](http://www.ceskaklavesnice.cz/zkratky) 
 </details>
