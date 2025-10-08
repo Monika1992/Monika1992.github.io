@@ -117,7 +117,13 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
  - 3.2 Použijeme trik s rozdělením dat do sloupců (Vyberu sloupec _A_ a na kartě _Data_ zvolím _Text do sloupců_), kde máme středník jako oddělovač
  - 3.3 Prozkoumáme hlavičky souboru a co v nich vše můžeme vidět za informace
  - 3.4 Pro další postup budeme pracovat s hodnotami __Globální radiace__ označená jako __GHI__
- - 3.5 Vybereme hodnoty ze sloupce __GHI__ a __Observation period__ a nakopírujeme je na náš připravený list TeplotaRadiace v MS Excel
+ - 3.5 Vybereme hodnoty ze sloupce __GHI__ a __Observation period__ a nakopírujeme je na náš připravený list TeplotaRadiace v MS Excel (Zkontroluji jestli maají data stejný začátek a konec v čase a případně to upravím tak, aby měla)
+
+4. Porovnání dat měsíčních teplot a sum globální radiace
+ - 4.1 Pro snadné vizuální porovnání hodnot vytvoříme spojnicový graf průběhu obou veličin v čase, na kterém si zároveň vyzkoušíme tvorbu kompletního grafu se všemi náležitostmi  
+ - 4.2
+ - 4.3
+ - 4.4 Kompletní graf je čitelný a obsahuje minimálně: Název, Legendu, Popisky os včetně jednotek, Uvedený zdroj/zdroje dat
 </details>
   
 <details markdown="1">
