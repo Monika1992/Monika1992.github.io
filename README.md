@@ -92,7 +92,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 <details markdown="1">
 <summary> Cvičení 03 </summary>
-# Cvičení 03 (09.10.2025) - Radiační bilance
+# Cvičení 03 (09.10.2025) - Radiace a teplota
 - Cílem cvičení je vysvětlit si základní terminologii k tématu solární radiace, pochopení vztahu radiace a teploty vzduchu a otestovat si možnosti získání dat z jiných zdrojů než je ČHMÚ
 - __Na konci cvičení mám MS Excel soubor s novým listem kde srovnáme měsíční hodnoty solární radiace a teplot pro naši vybranou stanici__
   
@@ -126,9 +126,11 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 4. Porovnání dat měsíčních teplot a sum globální radiace
  - 4.1 Pro snadné vizuální porovnání hodnot vytvoříme spojnicový graf průběhu obou veličin v čase, na kterém si zároveň vyzkoušíme tvorbu kompletního grafu se všemi náležitostmi  
- - 4.2
- - 4.3
- - 4.4 Kompletní graf je čitelný a obsahuje minimálně: Název, Legendu, Popisky os včetně jednotek, Uvedený zdroj/zdroje dat
+ - 4.2 Na listu TeplotaRadiace vybereme data pro měsíční teploty a globální radiaci
+ - 4.3 Vložíme spojnicový graf (Karta __Vložit__)
+ - 4.4 Rozdělíme naše dvě veličiny na dvě osy - pomocí kontextové nabídky grafu vyberu __Změnit type grafu__ a vyberu z nabídky __Kombinovaný__
+ - 4.5 Obě veličiny chceme zobrazit jako spojnicový graf, na sekundární osu přesuneme globální radiaci
+ - 4.6 Kompletní graf je čitelný a obsahuje minimálně: Název, Legendu, Popisky os včetně jednotek, Uvedený zdroj/zdroje dat
 </details>
   
 <details markdown="1">
