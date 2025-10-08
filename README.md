@@ -88,6 +88,22 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <details markdown="1">
 <summary> Cvičení 03 </summary>
 # Cvičení 03 (09.10.2025) - Radiační bilance
+- Cílem cvičení je vysvětlit si základní terminologii k tématu solární radiace, pochopení vztahu radiace a teploty vzduchu a otestovat si možnosti získání dat z jiných zdrojů než je ČHMÚ
+- __Na konci cvičení mám MS Excel soubor s novým listem kde srovnáme měsíční hodnoty solární radiace a teplot pro naši vybranou stanici__
+  
+## DŮLEŽITÉ ODKAZY ##
+- Data pro radiaci: [Data k získání ZDE](https://ads.atmosphere.copernicus.eu/datasets/cams-solar-radiation-timeseries?tab=overview)
+
+## Postup práce ve cvičení ##
+
+1. Ve svém MS Excel souboru __PrijmeniJmeno_AgroMeteo.xlsx__ vytvořím nový list a pojmenuji ho TeplotaRadiace
+ - 1.1 Do prvních 3 sloupců na novém listu nakopíruji data ze sloupců obsahujících __rok, měsíc a hodnoty teploty vzduchu__ z listu s daty pro teplotu
+ - 1.2 Nechám si pouze hodnoty pro rok 2004-2024 a zbytek mohu smazat
+
+2. Získám data pro solární radiaci ze služby Copernicus
+ - 2.1 Na stránkách Copernicus [Data k získání ZDE](https://ads.atmosphere.copernicus.eu/datasets/cams-solar-radiation-timeseries?tab=overview) vyberu záložku __Download__
+ - 2.2 Vyplním formulář pro získání dat s pomocí následující nápovědy
+ - 2.3 
 </details>
   
 <details markdown="1">
