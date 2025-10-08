@@ -2,6 +2,8 @@
 Cílem seminární práce je osvojit si základy práce s klimatologickými časovými řadami. V rámci práce budou využita volně dostupná pozorovaná data [Českého hydrometeorologického ústavu (ČHMÚ)](https://www.chmi.cz/). Data jsou k dispozici v denním či měsíčním časovém kroku a pro minulost jsou volně ke stažení.
 
 Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scénáři připravenými [Ústavem výzkumu globální změny AV ČR, v. v. i. (CzechGlobe)](https://www.czechglobe.cz/cs/) dostupnými na portálu [ClimRisk](https://www.climrisk.cz/) a evropského programu [Copernicus](https://www.copernicus.eu/en).
+
+<details markdown="1">
 <summary> Základní informace o kurzu </summary>
 
 # Základní informace
