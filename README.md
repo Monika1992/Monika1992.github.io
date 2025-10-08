@@ -113,7 +113,11 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
  - 2.10 Potvrdím potřebné souhlasy a požádám o data - budeme pár minut čekat než se pro nás data vygenerují a pak si je stáhneme
 
 3. Práce se staženými daty solární radiace
- - 3.1 
+ - 3.1 Stažený soubor otevřeme v programu MS EXCEL, pomocí kombinace kláves __CTRL__ a __H__ (nebo nástroje __Najít a nahradit__) najdeme čárky a nahradíme je středníky (;), dále nahradíme tečky za čárky
+ - 3.2 Použijeme trik s rozdělením dat do sloupců (Vyberu sloupec _A_ a na kartě _Data_ zvolím _Text do sloupců_), kde máme středník jako oddělovač
+ - 3.3 Prozkoumáme hlavičky souboru a co v nich vše můžeme vidět za informace
+ - 3.4 Pro další postup budeme pracovat s hodnotami __Globální radiace__ označená jako __GHI__
+ - 3.5 Vybereme hodnoty ze sloupce __GHI__ a __Observation period__ a nakopírujeme je na náš připravený list TeplotaRadiace v MS Excel
 </details>
   
 <details markdown="1">
