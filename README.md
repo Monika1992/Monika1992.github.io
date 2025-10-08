@@ -1,7 +1,8 @@
 # Zadání seminární práce
-Cílem seminární práce je osvojit si základy práce s klimatologickými časovými řadami. V rámci práce budou využita volně dostupná pozorovaná data Českého hydrometeorologického ústavu (ČHMÚ). Data jsou k dispozici v denním či měsíčním časovém kroku.
+Cílem seminární práce je osvojit si základy práce s klimatologickými časovými řadami. V rámci práce budou využita volně dostupná pozorovaná data [Českého hydrometeorologického ústavu (ČHMÚ)](https://www.chmi.cz/). Data jsou k dispozici v denním či měsíčním časovém kroku a pro minulost jsou volně ke stažení.
 
-Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scénáři připravenými Ústavem výzkumu globální změny AV ČR, v. v. i. (CzechGlobe). Data budoucích klimatických podmínek jsou k dispozici zde.
+Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scénáři připravenými [Ústavem výzkumu globální změny AV ČR, v. v. i. (CzechGlobe)](https://www.czechglobe.cz/cs/) dostupnými na portálu [ClimRisk](https://www.climrisk.cz/) a evropského programu [Copernicus](https://www.copernicus.eu/en).
+<summary> Základní informace o kurzu </summary>
 
 # Základní informace
 - Můj kontaktní email je monika.hlavsova@mendelu.cz, najdete mě v kanceláři N5064 po předchozí domluvě
@@ -22,6 +23,8 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   - Ptám se na cvičení
   - Ptám se spolužáků
   - Ptám se Googlu nebo AI
+
+</details>
 
 <details markdown="1">
 <summary> Cvičení 02 </summary>
