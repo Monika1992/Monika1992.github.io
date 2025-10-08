@@ -98,12 +98,22 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 1. Ve svém MS Excel souboru __PrijmeniJmeno_AgroMeteo.xlsx__ vytvořím nový list a pojmenuji ho TeplotaRadiace
  - 1.1 Do prvních 3 sloupců na novém listu nakopíruji data ze sloupců obsahujících __rok, měsíc a hodnoty teploty vzduchu__ z listu s daty pro teplotu
- - 1.2 Nechám si pouze hodnoty pro rok 2004-2024 a zbytek mohu smazat
+ - 1.2 Nechám si pouze hodnoty pro rok 2004-2024 a zbytek mohu z tohoto listu smazat (__pozor, nesmažte si hodnoty z originálních dat teploty, které máte na listu _Teplota___)
 
 2. Získám data pro solární radiaci ze služby Copernicus
- - 2.1 Na stránkách Copernicus [Data k získání ZDE](https://ads.atmosphere.copernicus.eu/datasets/cams-solar-radiation-timeseries?tab=overview) vyberu záložku __Download__
+ - 2.1 Na stránkách Copernicus [Data k získání ZDE](https://ads.atmosphere.copernicus.eu/datasets/cams-solar-radiation-timeseries?tab=overview) vyberu záložku __Download__ (MUSÍM SE REGISTROVAT)
  - 2.2 Vyplním formulář pro získání dat s pomocí následující nápovědy
- - 2.3 
+ - 2.3 U výběru __Sky type__ volím __Both cloud-free and actual weather conditions__
+ - 2.4 Zadám souřadnice mojí stanice (pokud jsem si minule neopsal souřadnice, najdu si je pomocí mapy.cz). Na mapě mohu zkontrolovat že jsem souřadnice zadal správně a poloha puntíku cca odpovídá poloze mojí stanice
+ - 2.5 Zadám nadmořskou výšku mojí stanice
+ - 2.6 Jako rozpětí datumů zvolím __2004-01-01 až 2024-12-31__
+ - 2.7 U výběru __Time step__ volím __1 month__
+ - 2.8 U výběru __Time reference__ volím __True solar time__
+ - 2.9 U výběru __Data format__ volím __CSV__
+ - 2.10 Potvrdím potřebné souhlasy a požádám o data - budeme pár minut čekat než se pro nás data vygenerují a pak si je stáhneme
+
+3. Práce se staženými daty solární radiace
+ - 3.1 
 </details>
   
 <details markdown="1">
