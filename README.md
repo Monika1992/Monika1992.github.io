@@ -141,9 +141,25 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 ## Postup práce ve cvičení ##
 1. Ve svém MS Excel souboru __PrijmeniJmeno_AgroMeteo.xlsx__ vytvořím nový list a pojmenuji ho SrovnaniNormaly
-2. 
+2. Příprava dat
+3. Nový list, nakopírovat 1961-1990 a vedle 1991 až 2020 
+4. Vytvoříme tzv. kontingenční tabulku
+5.   Vložit - Kontingenční graf - Kontingenční graf a kontingenční tabulka
+6.   (Vybrat tabulku či oblast) Myší Označíme sloupce roky, měsíce, teplota - OK
+7.   Objeví se připravená plátna ptro tabulku a graf
+8.   Pole kontingenčního grafu - Drag and drop měsíce - osa kategorie
+9.   Drag and drop teplota - hodnoty
+10.   Změnit hodnoty - kliknout na šipečku, Nastavení polí hodnot... - vybereme Průměr - OK
+11.   Graf použiju por rychlou kontrolu toho že jsem postupoval správně a smažu ho, hodnoty z tabulky si překopíruji na další list a vložím jako hodnoty
+12.   Zopakuji celé pro 1991-2020 na původním listu
+13.   Vytvoříme hezký graf (spojnice)
+14.   Opakujeme pro srážky a ukážeme si proč  se u srážek může příběh lišit a vysvětlíme si že použijeme jiný typ grafu (sloupy)
 
-
+## Otázky k interpretaci dat ##
+1. Jaké pozorujete rozdíly a změny mezi dvěma srovnávanými obdobími
+2. Které měsíce se oteplují nejvíce a které nejméně?
+3. Jaké mouhou tyto změny mít dopady v krajině v jednotlivých ročních obdobích?
+4. Jak se liší roční teploty ve dvou srovnávaných obdobích
 </details>
   
 <details markdown="1"> 
