@@ -135,7 +135,15 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   
 <details markdown="1">
 <summary> Cvičení 04 </summary>
-# Cvičení 04 (16.10.2025) - Energetická bilance
+# Cvičení 04 (16.10.2025) - Srovnání průměrných měsíčních teplot a srážkových úhrnů
+- Cílem cvičení je vytvořit grafy průměrných měsíčních teplot a sum srážek pro dva třicetileté klimatické normály a porovnat hodnoty v těchto obdobích
+- __Na konci cvičení mám MS Excel soubor s novým listem kde srovnáme data průměrných teplot vzduchu a sum srážek v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 and 1991-2020__
+
+## Postup práce ve cvičení ##
+1. Ve svém MS Excel souboru __PrijmeniJmeno_AgroMeteo.xlsx__ vytvořím nový list a pojmenuji ho SrovnaniNormaly
+2. 
+
+
 </details>
   
 <details markdown="1"> 
