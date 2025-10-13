@@ -148,7 +148,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   
 <details markdown="1"> 
 <summary> Cvičení 05 </summary>
-# Cvičení 05 (23.10.2025) - Změna klimatu
+# Cvičení 05 (23.10.2025) - Změna klimatu - získání budoucího klimatu z portálu ClimRisk
 </details>
   
 <details markdown="1">
