@@ -171,7 +171,18 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   
 <details markdown="1"> 
 <summary> Cvičení 05 </summary>
-# Cvičení 05 (23.10.2025) - Změna klimatu - získání budoucího klimatu z portálu ClimRisk
+# Cvičení 05 (23.10.2025) - Změna klimatu - získání dat budoucího vývoje klimatu z portálu ClimRisk
+- Cílem cvičení je prověřit předpokládaný budoucí vývoj klimatu pro naši stanici a jejich srovnání s daty získanými z historických měření ČHMÚ
+- __Na konci cvičení mám MS Excel soubor s novým listem BudouciKlima kde srovnáme průměrné měsíční hodnoty normálových období 1961-1990 a 1991-2020 se získanými daty budoucího vývoje klimatu__
+  
+## DŮLEŽITÉ ODKAZY ##
+- Data budoucího vývoje klimatu: [Dostupná na portálu ClimRisk](https://www.climrisk.cz/)
+
+## Postup práce ve cvičení ##
+1. Příprava pracovního Excelu
+2. Získání dat z portálu ClimRisk
+3. Srovnání staničních dat a budoucích scénářů vývoje klimatu pro teplotu vzduchu a srážky
+   
 </details>
   
 <details markdown="1">
