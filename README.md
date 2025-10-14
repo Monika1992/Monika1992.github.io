@@ -135,12 +135,12 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   
 <details markdown="1">
 <summary> Cvičení 04 </summary>
-# Cvičení 04 (16.10.2025) - Srovnání průměrných měsíčních teplot a srážkových úhrnů za dvě normálová období
-- Cílem cvičení je vytvořit grafy průměrných měsíčních teplot a sum srážek pro dva třicetileté klimatické normály a porovnat hodnoty v těchto obdobích
-- __Na konci cvičení mám MS Excel soubor se dvěma novými listy NormalyTeploty a NormalySrazky, kde srovnáme data průměrných teplot vzduchu a sum srážek v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 and 1991-2020, včetně grafického zobrazení__
+# Cvičení 04 (16.10.2025) - Srovnání průměrných měsíčních teplot za dvě normálová období
+- Cílem cvičení je vytvořit grafy průměrných měsíčních teplot pro dva třicetileté klimatické normály a porovnat hodnoty v těchto obdobích
+- __Na konci cvičení mám MS Excel soubor s novým listem NormalyTeploty, kde srovnáme data průměrných teplot vzduchu v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 and 1991-2020, včetně grafického zobrazení__
 
 ## Postup práce ve cvičení ##
-1. Ve svém MS Excel souboru __PrijmeniJmeno_AgroMeteo.xlsx__ vytvořím dva nové listy a pojmenuji je __NormalyTeploty__ a __NormalySrazky__
+1. Ve svém MS Excel souboru __PrijmeniJmeno_AgroMeteo.xlsx__ vytvořím nový list a pojmenuji ho __NormalyTeploty__
    
 2. Příprava dat a vytvoření kontingenční tabulky - teplota vzduchu
  - 2.1 Na nový list __NormalyTeploty__ nakopíruji data z listu __Teplota__, vyberu pouze časové úseky 1961-1990 a 1991 až 2020. Hodnoty pro první normál (rok, měsíc, teploty) nakopíruju od sloupce __A__, hodnoty pro druhý normál (rok, měsíc, teploty) od sloupce __E__
@@ -159,8 +159,6 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
  - 3.1 Po vytvoření obou kontingenčních tabulek pro období 1961-1990 a 1991-2020 budeme zobrazovat obě řady měsíčních průměrných teplot v jednom spojnicovém grafu
  - 3.2 Vybereme vstupní data a pomocí __Vložit__, __Spojnicový graf__ vložíme graf který dále upravíme do podoby kompletního grafu
  - Přidáme název, popisy os, zdroj vstupních dat, jednotky, upravíme legendu tak aby byla čitelná
-
-4. Postup opakujeme na listu __NormalySrazky__
 
 ## Otázky k interpretaci dat ##
 1. Jaké pozorujete rozdíly a změny mezi dvěma srovnávanými obdobími
