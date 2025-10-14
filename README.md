@@ -135,30 +135,37 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   
 <details markdown="1">
 <summary> Cvičení 04 </summary>
-# Cvičení 04 (16.10.2025) - Srovnání průměrných měsíčních teplot a srážkových úhrnů
+# Cvičení 04 (16.10.2025) - Srovnání průměrných měsíčních teplot a srážkových úhrnů za dvě normálová období
 - Cílem cvičení je vytvořit grafy průměrných měsíčních teplot a sum srážek pro dva třicetileté klimatické normály a porovnat hodnoty v těchto obdobích
-- __Na konci cvičení mám MS Excel soubor s novým listem kde srovnáme data průměrných teplot vzduchu a sum srážek v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 and 1991-2020__
+- __Na konci cvičení mám MS Excel soubor se dvěma novými listy NormalyTeploty a NormalySrazky, kde srovnáme data průměrných teplot vzduchu a sum srážek v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 and 1991-2020, včetně grafického zobrazení__
 
 ## Postup práce ve cvičení ##
-1. Ve svém MS Excel souboru __PrijmeniJmeno_AgroMeteo.xlsx__ vytvořím nový list a pojmenuji ho SrovnaniNormaly
-2. Příprava dat
-3. Nový list, nakopírovat 1961-1990 a vedle 1991 až 2020 
-4. Vytvoříme tzv. kontingenční tabulku
-5.   Vložit - Kontingenční graf - Kontingenční graf a kontingenční tabulka
-6.   (Vybrat tabulku či oblast) Myší Označíme sloupce roky, měsíce, teplota - OK
-7.   Objeví se připravená plátna ptro tabulku a graf
-8.   Pole kontingenčního grafu - Drag and drop měsíce - osa kategorie
-9.   Drag and drop teplota - hodnoty
-10.   Změnit hodnoty - kliknout na šipečku, Nastavení polí hodnot... - vybereme Průměr - OK
-11.   Graf použiju por rychlou kontrolu toho že jsem postupoval správně a smažu ho, hodnoty z tabulky si překopíruji na další list a vložím jako hodnoty
-12.   Zopakuji celé pro 1991-2020 na původním listu
-13.   Vytvoříme hezký graf (spojnice)
-14.   Opakujeme pro srážky a ukážeme si proč  se u srážek může příběh lišit a vysvětlíme si že použijeme jiný typ grafu (sloupy)
+1. Ve svém MS Excel souboru __PrijmeniJmeno_AgroMeteo.xlsx__ vytvořím dva nové listy a pojmenuji je __NormalyTeploty__ a __NormalySrazky__
+   
+2. Příprava dat a vytvoření kontingenční tabulky - teplota vzduchu
+ - 2.1 Na nový list __NormalyTeploty__ nakopíruji data z listu __Teplota__, vyberu pouze časové úseky 1961-1990 a 1991 až 2020. Hodnoty pro první normál (rok, měsíc, teploty) nakopíruju od sloupce __A__, hodnoty pro druhý normál (rok, měsíc, teploty) od sloupce __E__
+ - 2.2 Pokud mi chybí záhlaví (pojmenování sloupců) tak ho u obou normálů doplním
+ - 2.3 Nyní vložíme tzv. kontingenční graf a kontingenční tabulku. Na záložce __Vložit__ vybereme __Kontingenční graf__ a následně možnost __Kontingenční graf a kontingenční tabulka__ (Na MacOS stačí jen __Kontingenční graf__ a pak už rovnou zadávám oblast dat)
+ - 2.3 V nabídce __Vybrat tabulku nebo oblast__ vybereme sloupce __A, B, C (data normálu 1961-1990)__ a potvrdíme výběr
+ - 2.4 Měla by se objevit plátna pro kontingenční tabulku a kontingenční graf (zatím prázdná)
+ - 2.5 V nabídce __Pole kontingenčního grafu__ přeneseme (drag and drop) položku __Měsíc__ (nebo odpovídající název vašeho sloupce s označením měsíce) do boxu __Osa kategorie__
+ - 2.6 Stejným způsobem přeneseme položku __Teplota__ do boxu __Hodnoty__
+ - 2.7 U boxu __Hodnoty__ změníme v nabídce __Nastavení polí hodnot...__ funkci na __Průměr__ a potvrdíme
+ - 2.8 Prohlédnu si vygenerovaný graf a vizuálně zhodnotím jestli dává smysl (např. jaké hodnoty jsou na osách X, Y, jestli vidím předpokládaný roční průběh teploty v jednotlivých měsících atd.). Pokud je vše OK, samotný graf můžu smazat.
+ - 2.9 hodnoty z vygenerované kontingenční tabulky vyberu a pomocí __Vložit hodnoty__ je nakopíruju na volné místo na listu (doporučuju sloupec __I__). Původní kontingenční tabulku smažu
+ - 2.10 Postup tvorby kontingenční tabulky zopakujeme pro druhé normálové období
+
+3. Vytvoření jednoho spojnicového grafu pro porovnání obou normálových období
+ - 3.1 Po vytvoření obou kontingenčních tabulek pro období 1961-1990 a 1991-2020 budeme zobrazovat obě řady měsíčních průměrných teplot v jednom spojnicovém grafu
+ - 3.2 Vybereme vstupní data a pomocí __Vložit__, __Spojnicový graf__ vložíme graf který dále upravíme do podoby kompletního grafu
+ - Přidáme název, popisy os, zdroj vstupních dat, jednotky, upravíme legendu tak aby byla čitelná
+
+4. Postup opakujeme na listu __NormalySrazky__
 
 ## Otázky k interpretaci dat ##
 1. Jaké pozorujete rozdíly a změny mezi dvěma srovnávanými obdobími
 2. Které měsíce se oteplují nejvíce a které nejméně?
-3. Jaké mouhou tyto změny mít dopady v krajině v jednotlivých ročních obdobích?
+3. Jaké mohou tyto změny mít dopady v krajině v jednotlivých ročních obdobích?
 4. Jak se liší roční teploty ve dvou srovnávaných obdobích
 </details>
   
