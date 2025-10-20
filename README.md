@@ -169,7 +169,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   
 <details markdown="1"> 
 <summary> Cvičení 05 </summary>
-# Cvičení 05 (23.10.2025) - Změna klimatu - získání dat budoucího vývoje klimatu z portálu ClimRisk
+# Cvičení 05 (23.10.2025) - Změna klimatu - získání dat budoucího vývoje klimatu z portálu ClimRisk, teplotní gradient
 - Cílem cvičení je prověřit předpokládaný budoucí vývoj klimatu pro naši stanici a jejich srovnání s daty získanými z historických měření ČHMÚ
 - __Na konci cvičení mám MS Excel soubor s novým listem BudouciKlima kde srovnáme průměrné měsíční hodnoty normálových období 1961-1990 a 1991-2020 se získanými daty budoucího vývoje klimatu__
   
@@ -185,7 +185,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   
 <details markdown="1">
 <summary> Cvičení 06 </summary>
-# Cvičení 06 (30.10.2025) - Teplota vzduchu
+# Cvičení 06 (30.10.2025) - Dotazy k seminární práci z fenologie, ukončení fenologických pozorování, doplnění k předcházejícím cvičením
 </details>
   
 <details markdown="1">
