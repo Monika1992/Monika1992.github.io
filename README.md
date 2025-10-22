@@ -171,7 +171,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <summary> Cvičení 05 </summary>
 # Cvičení 05 (23.10.2025) - Změna klimatu - získání dat budoucího vývoje klimatu z portálu ClimRisk, teplotní gradient
 - Cílem cvičení je prověřit předpokládaný budoucí vývoj klimatu pro naši stanici a jejich srovnání s daty získanými z historických měření ČHMÚ
-- __Na konci cvičení mám MS Excel soubor s novým listem BudouciKlima kde srovnáme průměrné měsíční hodnoty normálových období 1961-1990 a 1991-2020 se získanými daty budoucího vývoje klimatu__
+- __Na konci cvičení mám MS Excel soubor s novými listy KlimatickyGradient a BudouciKlima kde srovnáme průměrné měsíční hodnoty normálových období 1961-1990 a 1991-2020 se získanými daty budoucího vývoje klimatu__
   
 ## DŮLEŽITÉ ODKAZY ##
 - Tabulky podnebí: [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf)
@@ -179,15 +179,16 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 ## Postup práce ve cvičení ##
 1. Příprava pracovního Excelu
+- 1.0 Vytvořím si dva nové listy a pojmenuji je __KlimatickyGradient__ a __BudouciKlima__
 
-2. Popsání klimatického teplotního gradientu s pomocí Tabulek podnebí
+3. Popsání klimatického teplotního gradientu s pomocí Tabulek podnebí
 - 2.0 Otevřu si Tabulky podnebí buď [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf) nebo si vezmu papírovou kopii
-- 2.1 Pomocí mapy vyberu 10 stanic s rozdílnými výškami
-- 2.2 Opíšu nadmořské výšky
-- 2.2 Opíšu průměrné roční teploty (Tabulka 1)
-- V MS Excel vytvořím bodový graf
-- Zobrazím spojnici trendu
-- Vysvětlíme míru teplotního gradientu pomocí funkce trendu
+- 2.1 Pomocí mapy vyberu 10 stanic s rozdílnými nadmořskými výškami
+- 2.2 Opíšu si jména stanic a nadmořské výšky z __Abecedního seznamu klimatických stanic__
+- 2.3 Opíšu průměrné roční teploty (__Tabulka 1: Průměrná teplota vzduchu (°C) za období 1901-1950__)
+- 2.4 V MS Excel vytvořím bodový graf z dat teploty a nadmořské výšky
+- 2.5 Zobrazím spojnici trendu včetně funkce a s pomocí zobrazené funkce ověřím míru teplotního gradientu u mojí stanice
+- 2.6 U grafu doplním veškeré náležitosti (Název, popisky os včetně jednotek, úplnou legendu, zdroj dat)
   
 3. Získání měsíčních dat z portálu ClimRisk
 - 3.1 Otevřu portál [ClimRisk](https://www.climrisk.cz/)
@@ -213,8 +214,9 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 - 4.9 V nabídce Klimatická charakteristika vyberte __Průměrná teplota vzduchu__ a  __Srážkový úhrn__
 - 4.10 V nabídce email zadejte vaši mailovou adresu a nechte si zaslat data
   
-4. Práce se staženými daty a tvorba grafů
-- 4.1 
+5. Práce se staženými daty a tvorba grafů
+- 5.1 Do grafu průměrných měsíčních teplot ve dvou normálových obdobích z minulého cvičení přidám data z budoucích normálových období 2035 (2021-2050)__ a __2065 (2051-2080)
+- 5.2 Pro roční hodnoty časových agregací scénářů budoucího vývoje klimatu vytvořím spojnicový graf průběhu včetně mediánu a všech percentilů
 
    
 </details>
