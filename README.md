@@ -178,8 +178,42 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 ## Postup práce ve cvičení ##
 1. Příprava pracovního Excelu
-2. Získání dat z portálu ClimRisk
-3. Srovnání staničních dat a budoucích scénářů vývoje klimatu pro teplotu vzduchu a srážky
+
+2. Popsání klimatického teplotního gradientu s pomocí Tabulek podnebí
+- 2.1 POmocí mapy vyberu 10 stanic s rozdílnými výškami
+- 2.2 Opíšu nadmořské výšky
+- 2.2 Opíšu průměrné roční teploty (Tabulka 1)
+- V MS Excel vytvořím bodový graf
+- Zobrazím spojnici trendu
+- Vysvětlíme míru teplotního gradientu pomocí funkce trendu
+  
+3. Získání měsíčních dat z portálu ClimRisk
+- 3.1 Otevřu portál [ClimRisk](https://www.climrisk.cz/)
+- 3.2 Vyberu __Česká Republika__
+- 3.3 V pravém menu vybereme jako parametr možnost __Průměrná teplota vzduchu__
+- 3.4 V horním menu stránky vyberu položku __Stahování dat__ a vyplníme formulář pro stažení hodnot
+- 3.5 Oblast: Česká republika, Podoblast: Okres ve kterém se nachází moje stanice, Region: Katastrální území mojí stanice (většinou stejné jako název obce)
+- 3.6 V nabídce Agregace vyberte všechny měsíce (leden-prosinec) a také rok
+- 3.7 V nabídce Klimatická projekce vyberte období __2035 (2021-2050)__ a __2065 (2051-2080)__
+- 3.8 V nabídce Scénář vyberte některou z možností __SSP126, SSP245, SSP370 nebo SSP585__
+- 3.9 V nabídce Klimatická charakteristika vyberte __Průměrná teplota vzduchu__ a  __Srážkový úhrn__
+- 3.10 V nabídce email zadejte vaši mailovou adresu a nechte si zaslat data
+
+4. Získání ročních dat pro všechny časové agregace z portálu ClimRisk
+- 4.1 Otevřu portál [ClimRisk](https://www.climrisk.cz/)
+- 4.2 Vyberu __Česká Republika__
+- 4.3 V pravém menu vybereme jako parametr možnost __Průměrná teplota vzduchu__
+- 4.4 V horním menu stránky vyberu položku __Stahování dat__ a vyplníme formulář pro stažení hodnot
+- 4.5 Oblast: Česká republika, Podoblast: Okres ve kterém se nachází moje stanice, Region: Katastrální území mojí stanice (většinou stejné jako název obce)
+- 4.6 V nabídce Agregace vyberte pouze rok
+- 4.7 V nabídce Klimatická projekce vyberte __všechny dostupná období__
+- 4.8 V nabídce Scénář vyberte některou z možností __SSP126, SSP245, SSP370 nebo SSP585__
+- 4.9 V nabídce Klimatická charakteristika vyberte __Průměrná teplota vzduchu__ a  __Srážkový úhrn__
+- 4.10 V nabídce email zadejte vaši mailovou adresu a nechte si zaslat data
+  
+4. Práce se staženými daty a tvorba grafů
+- 4.1 
+
    
 </details>
   
