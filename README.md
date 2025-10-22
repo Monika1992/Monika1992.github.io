@@ -174,14 +174,14 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 - __Na konci cvičení mám MS Excel soubor s novým listem BudouciKlima kde srovnáme průměrné měsíční hodnoty normálových období 1961-1990 a 1991-2020 se získanými daty budoucího vývoje klimatu__
   
 ## DŮLEŽITÉ ODKAZY ##
-- Tabulky podnebí: [ZDE](https://www.intersucho.cz/admin/1/files.browse/file/83/?fid=11) 
+- Tabulky podnebí: [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf)
 - Data budoucího vývoje klimatu: [Dostupná na portálu ClimRisk](https://www.climrisk.cz/)
 
 ## Postup práce ve cvičení ##
 1. Příprava pracovního Excelu
 
 2. Popsání klimatického teplotního gradientu s pomocí Tabulek podnebí
-- 2.0 Otevřu si Tabulky podnebí buď [ZDE](https://www.intersucho.cz/admin/1/files.browse/file/83/?fid=11) nebo si vezmu papírovou kopii
+- 2.0 Otevřu si Tabulky podnebí buď [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf) nebo si vezmu papírovou kopii
 - 2.1 Pomocí mapy vyberu 10 stanic s rozdílnými výškami
 - 2.2 Opíšu nadmořské výšky
 - 2.2 Opíšu průměrné roční teploty (Tabulka 1)
