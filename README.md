@@ -102,35 +102,35 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 ## Postup práce ve cvičení ##
 
 1. Ve svém MS Excel souboru __PrijmeniJmeno_AgroMeteo.xlsx__ vytvořím nový list a pojmenuji ho TeplotaRadiace
- - 1.1 Do prvních 3 sloupců na novém listu nakopíruji data ze sloupců obsahujících __rok, měsíc a hodnoty teploty vzduchu__ z listu s daty pro teplotu
- - 1.2 Nechám si pouze hodnoty pro rok 2004-2024 a zbytek mohu z tohoto listu smazat (__pozor, nesmažte si hodnoty z originálních dat teploty, které máte na listu _Teplota___)
+     - 1.1 Do prvních 3 sloupců na novém listu nakopíruji data ze sloupců obsahujících __rok, měsíc a hodnoty teploty vzduchu__ z listu s daty pro teplotu
+     - 1.2 Nechám si pouze hodnoty pro rok 2004-2024 a zbytek mohu z tohoto listu smazat (__pozor, nesmažte si hodnoty z originálních dat teploty, které máte na listu _Teplota___)
 
 2. Získám data pro solární radiaci ze služby Copernicus
- - 2.1 Na stránkách Copernicus [Data k získání ZDE](https://ads.atmosphere.copernicus.eu/datasets/cams-solar-radiation-timeseries?tab=overview) vyberu záložku __Download__ (MUSÍM SE REGISTROVAT)
- - 2.2 Vyplním formulář pro získání dat s pomocí následující nápovědy
- - 2.3 U výběru __Sky type__ volím __Both cloud-free and actual weather conditions__
- - 2.4 Zadám souřadnice mojí stanice (pokud jsem si minule neopsal souřadnice, najdu si je pomocí mapy.cz). Na mapě mohu zkontrolovat že jsem souřadnice zadal správně a poloha puntíku cca odpovídá poloze mojí stanice
- - 2.5 Zadám nadmořskou výšku mojí stanice
- - 2.6 Jako rozpětí datumů zvolím __2004-01-01 až 2024-12-31__
- - 2.7 U výběru __Time step__ volím __1 month__
- - 2.8 U výběru __Time reference__ volím __True solar time__
- - 2.9 U výběru __Data format__ volím __CSV__
- - 2.10 Potvrdím potřebné souhlasy a požádám o data - budeme pár minut čekat než se pro nás data vygenerují a pak si je stáhneme
+     - 2.1 Na stránkách Copernicus [Data k získání ZDE](https://ads.atmosphere.copernicus.eu/datasets/cams-solar-radiation-timeseries?tab=overview) vyberu záložku __Download__ (MUSÍM SE REGISTROVAT)
+     - 2.2 Vyplním formulář pro získání dat s pomocí následující nápovědy
+     - 2.3 U výběru __Sky type__ volím __Both cloud-free and actual weather conditions__
+     - 2.4 Zadám souřadnice mojí stanice (pokud jsem si minule neopsal souřadnice, najdu si je pomocí mapy.cz). Na mapě mohu zkontrolovat že jsem souřadnice zadal správně a poloha puntíku cca odpovídá poloze mojí stanice
+     - 2.5 Zadám nadmořskou výšku mojí stanice
+     - 2.6 Jako rozpětí datumů zvolím __2004-01-01 až 2024-12-31__
+     - 2.7 U výběru __Time step__ volím __1 month__
+     - 2.8 U výběru __Time reference__ volím __True solar time__
+     - 2.9 U výběru __Data format__ volím __CSV__
+     - 2.10 Potvrdím potřebné souhlasy a požádám o data - budeme pár minut čekat než se pro nás data vygenerují a pak si je stáhneme
 
 3. Práce se staženými daty solární radiace
- - 3.1 Stažený soubor otevřeme v programu MS EXCEL, pomocí kombinace kláves __CTRL__ a __H__ (nebo nástroje __Najít a nahradit__) najdeme čárky a nahradíme je středníky (;), dále nahradíme tečky za čárky
- - 3.2 Použijeme trik s rozdělením dat do sloupců (Vyberu sloupec _A_ a na kartě _Data_ zvolím _Text do sloupců_), kde máme středník jako oddělovač
- - 3.3 Prozkoumáme hlavičky souboru a co v nich vše můžeme vidět za informace
- - 3.4 Pro další postup budeme pracovat s hodnotami __Globální radiace__ označená jako __GHI__
- - 3.5 Vybereme hodnoty ze sloupce __GHI__ a __Observation period__ a nakopírujeme je na náš připravený list TeplotaRadiace v MS Excel (Zkontroluji jestli maají data stejný začátek a konec v čase a případně to upravím tak, aby měla)
+     - 3.1 Stažený soubor otevřeme v programu MS EXCEL, pomocí kombinace kláves __CTRL__ a __H__ (nebo nástroje __Najít a nahradit__) najdeme čárky a nahradíme je středníky (;), dále nahradíme tečky za čárky
+     - 3.2 Použijeme trik s rozdělením dat do sloupců (Vyberu sloupec _A_ a na kartě _Data_ zvolím _Text do sloupců_), kde máme středník jako oddělovač
+     - 3.3 Prozkoumáme hlavičky souboru a co v nich vše můžeme vidět za informace
+     - 3.4 Pro další postup budeme pracovat s hodnotami __Globální radiace__ označená jako __GHI__
+     - 3.5 Vybereme hodnoty ze sloupce __GHI__ a __Observation period__ a nakopírujeme je na náš připravený list TeplotaRadiace v MS Excel (Zkontroluji jestli maají data stejný začátek a konec v čase a případně to upravím tak, aby měla)
 
 4. Porovnání dat měsíčních teplot a sum globální radiace
- - 4.1 Pro snadné vizuální porovnání hodnot vytvoříme spojnicový graf průběhu obou veličin v čase, na kterém si zároveň vyzkoušíme tvorbu kompletního grafu se všemi náležitostmi  
- - 4.2 Na listu TeplotaRadiace vybereme data pro měsíční teploty a globální radiaci
- - 4.3 Vložíme spojnicový graf (Karta __Vložit__)
- - 4.4 Rozdělíme naše dvě veličiny na dvě osy - pomocí kontextové nabídky grafu vyberu __Změnit type grafu__ a vyberu z nabídky __Kombinovaný__
- - 4.5 Obě veličiny chceme zobrazit jako spojnicový graf, na sekundární osu přesuneme globální radiaci
- - 4.6 Kompletní graf je čitelný a obsahuje minimálně: Název, Legendu, Popisky os včetně jednotek, Uvedený zdroj/zdroje dat
+     - 4.1 Pro snadné vizuální porovnání hodnot vytvoříme spojnicový graf průběhu obou veličin v čase, na kterém si zároveň vyzkoušíme tvorbu kompletního grafu se všemi náležitostmi  
+     - 4.2 Na listu TeplotaRadiace vybereme data pro měsíční teploty a globální radiaci
+     - 4.3 Vložíme spojnicový graf (Karta __Vložit__)
+     - 4.4 Rozdělíme naše dvě veličiny na dvě osy - pomocí kontextové nabídky grafu vyberu __Změnit type grafu__ a vyberu z nabídky __Kombinovaný__
+     - 4.5 Obě veličiny chceme zobrazit jako spojnicový graf, na sekundární osu přesuneme globální radiaci
+     - 4.6 Kompletní graf je čitelný a obsahuje minimálně: Název, Legendu, Popisky os včetně jednotek, Uvedený zdroj/zdroje dat
 </details>
   
 <details markdown="1">
@@ -143,22 +143,22 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 1. Ve svém MS Excel souboru __PrijmeniJmeno_AgroMeteo.xlsx__ vytvořím nový list a pojmenuji ho __NormalyTeploty__
    
 2. Příprava dat a vytvoření kontingenční tabulky - teplota vzduchu
- - 2.1 Na nový list __NormalyTeploty__ nakopíruji data z listu __Teplota__, vyberu pouze časové úseky 1961-1990 a 1991 až 2020. Hodnoty pro první normál (rok, měsíc, teploty) nakopíruju od sloupce __A__, hodnoty pro druhý normál (rok, měsíc, teploty) od sloupce __E__
- - 2.2 Pokud mi chybí záhlaví (pojmenování sloupců) tak ho u obou normálů doplním
- - 2.3 Nyní vložíme tzv. kontingenční graf a kontingenční tabulku. Na záložce __Vložit__ vybereme __Kontingenční graf__ a následně možnost __Kontingenční graf a kontingenční tabulka__ (Na MacOS stačí jen __Kontingenční graf__ a pak už rovnou zadávám oblast dat)
- - 2.3 V nabídce __Vybrat tabulku nebo oblast__ vybereme sloupce __A, B, C (data normálu 1961-1990)__ a potvrdíme výběr
- - 2.4 Měla by se objevit plátna pro kontingenční tabulku a kontingenční graf (zatím prázdná)
- - 2.5 V nabídce __Pole kontingenčního grafu__ přeneseme (drag and drop) položku __Měsíc__ (nebo odpovídající název vašeho sloupce s označením měsíce) do boxu __Osa kategorie__
- - 2.6 Stejným způsobem přeneseme položku __Teplota__ do boxu __Hodnoty__
- - 2.7 U boxu __Hodnoty__ změníme v nabídce __Nastavení polí hodnot...__ funkci na __Průměr__ a potvrdíme
- - 2.8 Prohlédnu si vygenerovaný graf a vizuálně zhodnotím jestli dává smysl (např. jaké hodnoty jsou na osách X, Y, jestli vidím předpokládaný roční průběh teploty v jednotlivých měsících atd.). Pokud je vše OK, samotný graf můžu smazat.
- - 2.9 hodnoty z vygenerované kontingenční tabulky vyberu a pomocí __Vložit hodnoty__ je nakopíruju na volné místo na listu (doporučuju sloupec __I__). Původní kontingenční tabulku smažu
- - 2.10 Postup tvorby kontingenční tabulky zopakujeme pro druhé normálové období
+     - 2.1 Na nový list __NormalyTeploty__ nakopíruji data z listu __Teplota__, vyberu pouze časové úseky 1961-1990 a 1991 až 2020. Hodnoty pro první normál (rok, měsíc, teploty) nakopíruju od sloupce __A__, hodnoty pro druhý normál (rok, měsíc, teploty) od sloupce __E__
+     - 2.2 Pokud mi chybí záhlaví (pojmenování sloupců) tak ho u obou normálů doplním
+     - 2.3 Nyní vložíme tzv. kontingenční graf a kontingenční tabulku. Na záložce __Vložit__ vybereme __Kontingenční graf__ a následně možnost __Kontingenční graf a kontingenční tabulka__ (Na MacOS stačí jen __Kontingenční graf__ a pak už rovnou zadávám oblast dat)
+     - 2.3 V nabídce __Vybrat tabulku nebo oblast__ vybereme sloupce __A, B, C (data normálu 1961-1990)__ a potvrdíme výběr
+     - 2.4 Měla by se objevit plátna pro kontingenční tabulku a kontingenční graf (zatím prázdná)
+     - 2.5 V nabídce __Pole kontingenčního grafu__ přeneseme (drag and drop) položku __Měsíc__ (nebo odpovídající název vašeho sloupce s označením měsíce) do boxu __Osa kategorie__
+     - 2.6 Stejným způsobem přeneseme položku __Teplota__ do boxu __Hodnoty__
+     - 2.7 U boxu __Hodnoty__ změníme v nabídce __Nastavení polí hodnot...__ funkci na __Průměr__ a potvrdíme
+     - 2.8 Prohlédnu si vygenerovaný graf a vizuálně zhodnotím jestli dává smysl (např. jaké hodnoty jsou na osách X, Y, jestli vidím předpokládaný roční průběh teploty v jednotlivých měsících atd.). Pokud je vše OK, samotný graf můžu smazat.
+     - 2.9 hodnoty z vygenerované kontingenční tabulky vyberu a pomocí __Vložit hodnoty__ je nakopíruju na volné místo na listu (doporučuju sloupec __I__). Původní kontingenční tabulku smažu
+     - 2.10 Postup tvorby kontingenční tabulky zopakujeme pro druhé normálové období
 
 3. Vytvoření jednoho spojnicového grafu pro porovnání obou normálových období
- - 3.1 Po vytvoření obou kontingenčních tabulek pro období 1961-1990 a 1991-2020 budeme zobrazovat obě řady měsíčních průměrných teplot v jednom spojnicovém grafu
- - 3.2 Vybereme vstupní data a pomocí __Vložit__, __Spojnicový graf__ vložíme graf který dále upravíme do podoby kompletního grafu
- - Přidáme název, popisy os, zdroj vstupních dat, jednotky, upravíme legendu tak aby byla čitelná
+     - 3.1 Po vytvoření obou kontingenčních tabulek pro období 1961-1990 a 1991-2020 budeme zobrazovat obě řady měsíčních průměrných teplot v jednom spojnicovém grafu
+     - 3.2 Vybereme vstupní data a pomocí __Vložit__, __Spojnicový graf__ vložíme graf který dále upravíme do podoby kompletního grafu
+     - Přidáme název, popisy os, zdroj vstupních dat, jednotky, upravíme legendu tak aby byla čitelná
 
 ## Otázky k interpretaci dat ##
 1. Jaké pozorujete rozdíly a změny mezi dvěma srovnávanými obdobími
@@ -179,44 +179,44 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 ## Postup práce ve cvičení ##
 1. Příprava pracovního Excelu
-- 1.0 Vytvořím si dva nové listy a pojmenuji je __KlimatickyGradient__ a __BudouciKlima__
+     - 1.0 Vytvořím si dva nové listy a pojmenuji je __KlimatickyGradient__ a __BudouciKlima__
 
-3. Popsání klimatického teplotního gradientu s pomocí Tabulek podnebí
-- 2.0 Otevřu si Tabulky podnebí buď [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf) nebo si vezmu papírovou kopii
-- 2.1 Pomocí mapy vyberu 10 stanic s rozdílnými nadmořskými výškami
-- 2.2 Opíšu si jména stanic a nadmořské výšky z __Abecedního seznamu klimatických stanic__
-- 2.3 Opíšu průměrné roční teploty (__Tabulka 1: Průměrná teplota vzduchu (°C) za období 1901-1950__)
-- 2.4 V MS Excel vytvořím bodový graf z dat teploty a nadmořské výšky
-- 2.5 Zobrazím spojnici trendu včetně funkce a s pomocí zobrazené funkce ověřím míru teplotního gradientu u mojí stanice
-- 2.6 U grafu doplním veškeré náležitosti (Název, popisky os včetně jednotek, úplnou legendu, zdroj dat)
+2. Popsání klimatického teplotního gradientu s pomocí Tabulek podnebí
+     - 2.0 Otevřu si Tabulky podnebí buď [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf) nebo si vezmu papírovou kopii
+     - 2.1 Pomocí mapy vyberu 10 stanic s rozdílnými nadmořskými výškami
+     - 2.2 Opíšu si jména stanic a nadmořské výšky z __Abecedního seznamu klimatických stanic__
+     - 2.3 Opíšu průměrné roční teploty (__Tabulka 1: Průměrná teplota vzduchu (°C) za období 1901-1950__)
+     - 2.4 V MS Excel vytvořím bodový graf z dat teploty a nadmořské výšky
+     - 2.5 Zobrazím spojnici trendu včetně funkce a s pomocí zobrazené funkce ověřím míru teplotního gradientu u mojí stanice
+     - 2.6 U grafu doplním veškeré náležitosti (Název, popisky os včetně jednotek, úplnou legendu, zdroj dat)
   
 3. Získání měsíčních dat z portálu ClimRisk
-- 3.1 Otevřu portál [ClimRisk](https://www.climrisk.cz/)
-- 3.2 Vyberu __Česká Republika__
-- 3.3 V pravém menu vybereme jako parametr možnost __Průměrná teplota vzduchu__
-- 3.4 V horním menu stránky vyberu položku __Stahování dat__ a vyplníme formulář pro stažení hodnot
-- 3.5 Oblast: Česká republika, Podoblast: Okres ve kterém se nachází moje stanice, Region: Katastrální území mojí stanice (většinou stejné jako název obce)
-- 3.6 V nabídce Agregace vyberte všechny měsíce (leden-prosinec) a také rok
-- 3.7 V nabídce Klimatická projekce vyberte období __2035 (2021-2050)__ a __2065 (2051-2080)__
-- 3.8 V nabídce Scénář vyberte některou z možností __SSP126, SSP245, SSP370 nebo SSP585__
-- 3.9 V nabídce Klimatická charakteristika vyberte __Průměrná teplota vzduchu__ a  __Srážkový úhrn__
-- 3.10 V nabídce email zadejte vaši mailovou adresu a nechte si zaslat data
+     - 3.1 Otevřu portál [ClimRisk](https://www.climrisk.cz/)
+     - 3.2 Vyberu __Česká Republika__
+     - 3.3 V pravém menu vybereme jako parametr možnost __Průměrná teplota vzduchu__
+     - 3.4 V horním menu stránky vyberu položku __Stahování dat__ a vyplníme formulář pro stažení hodnot
+     - 3.5 Oblast: Česká republika, Podoblast: Okres ve kterém se nachází moje stanice, Region: Katastrální území mojí stanice (většinou stejné jako název obce)
+     - 3.6 V nabídce Agregace vyberte všechny měsíce (leden-prosinec) a také rok
+     - 3.7 V nabídce Klimatická projekce vyberte období __2035 (2021-2050)__ a __2065 (2051-2080)__
+     - 3.8 V nabídce Scénář vyberte některou z možností __SSP126, SSP245, SSP370 nebo SSP585__
+     - 3.9 V nabídce Klimatická charakteristika vyberte __Průměrná teplota vzduchu__ a  __Srážkový úhrn__
+     - 3.10 V nabídce email zadejte vaši mailovou adresu a nechte si zaslat data
 
 4. Získání ročních dat pro všechny časové agregace z portálu ClimRisk
-- 4.1 Otevřu portál [ClimRisk](https://www.climrisk.cz/)
-- 4.2 Vyberu __Česká Republika__
-- 4.3 V pravém menu vybereme jako parametr možnost __Průměrná teplota vzduchu__
-- 4.4 V horním menu stránky vyberu položku __Stahování dat__ a vyplníme formulář pro stažení hodnot
-- 4.5 Oblast: Česká republika, Podoblast: Okres ve kterém se nachází moje stanice, Region: Katastrální území mojí stanice (většinou stejné jako název obce)
-- 4.6 V nabídce Agregace vyberte pouze rok
-- 4.7 V nabídce Klimatická projekce vyberte __všechny dostupná období__
-- 4.8 V nabídce Scénář vyberte některou z možností __SSP126, SSP245, SSP370 nebo SSP585__
-- 4.9 V nabídce Klimatická charakteristika vyberte __Průměrná teplota vzduchu__ a  __Srážkový úhrn__
-- 4.10 V nabídce email zadejte vaši mailovou adresu a nechte si zaslat data
+     - 4.1 Otevřu portál [ClimRisk](https://www.climrisk.cz/)
+     - 4.2 Vyberu __Česká Republika__
+     - 4.3 V pravém menu vybereme jako parametr možnost __Průměrná teplota vzduchu__
+     - 4.4 V horním menu stránky vyberu položku __Stahování dat__ a vyplníme formulář pro stažení hodnot
+     - 4.5 Oblast: Česká republika, Podoblast: Okres ve kterém se nachází moje stanice, Region: Katastrální území mojí stanice (většinou stejné jako název obce)
+     - 4.6 V nabídce Agregace vyberte pouze rok
+     - 4.7 V nabídce Klimatická projekce vyberte __všechny dostupná období__
+     - 4.8 V nabídce Scénář vyberte některou z možností __SSP126, SSP245, SSP370 nebo SSP585__
+     - 4.9 V nabídce Klimatická charakteristika vyberte __Průměrná teplota vzduchu__ a  __Srážkový úhrn__
+     - 4.10 V nabídce email zadejte vaši mailovou adresu a nechte si zaslat data
   
 5. Práce se staženými daty a tvorba grafů
-- 5.1 Do grafu průměrných měsíčních teplot ve dvou normálových obdobích z minulého cvičení přidám data z budoucích normálových období 2035 (2021-2050)__ a __2065 (2051-2080)
-- 5.2 Pro roční hodnoty časových agregací scénářů budoucího vývoje klimatu vytvořím spojnicový graf průběhu včetně mediánu a všech percentilů
+     - 5.1 Do grafu průměrných měsíčních teplot ve dvou normálových obdobích z minulého cvičení přidám data z budoucích normálových období 2035 (2021-2050)__ a __2065 (2051-2080)
+     - 5.2 Pro roční hodnoty časových agregací scénářů budoucího vývoje klimatu vytvořím spojnicový graf průběhu včetně mediánu a všech percentilů
 
    
 </details>
