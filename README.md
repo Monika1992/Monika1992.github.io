@@ -226,37 +226,44 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   
 <details markdown="1">
 <summary> Cvičení 06 </summary>
+
 # Cvičení 06 (30.10.2025) - Dotazy k seminární práci z fenologie, ukončení fenologických pozorování, doplnění k předcházejícím cvičením
 </details>
   
 <details markdown="1">
 <summary> Cvičení 07 </summary>
-# Cvičení 07 (06.11.2025) - Charakteristické dny
+
+# Cvičení 07 (06.11.2025) - Srážky 1
 </details>
   
 <details markdown="1">
 <summary> Cvičení 08 </summary>
-# Cvičení 08 (13.11.2025) - Vlhkost vzduchu a výpar
+
+# Cvičení 08 (13.11.2025) - Srážky 2
 </details>
   
 <details markdown="1">
 <summary> Cvičení 09 </summary>
-# Cvičení 09 (20.11.2025) - Srážky
+
+# Cvičení 09 (20.11.2025) - Charakteristické dny
 </details>
   
 <details markdown="1">
 <summary> Cvičení 10 </summary>
-# Cvičení 10 (27.11.2025) - Sucho
+
+# Cvičení 10 (27.11.2025) - Vlhkost vzduchu a výpar
 </details>
   
 <details markdown="1">
 <summary> Cvičení 11 </summary>
-# Cvičení 11 (04.12.2025) - Tlak a vítr
+
+# Cvičení 11 (04.12.2025) - Příprava na závěrečné prezentace
 </details>
   
 <details markdown="1">
 <summary> Cvičení 12 </summary>
-# Cvičení 12 (11.12.2025) - Kontrola seminárních prací a zápočty
+
+# Cvičení 12 (11.12.2025) - Společné prezentace výsledků a zápočty
 </details>
 
 
