@@ -92,6 +92,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 <details markdown="1">
 <summary> Cvičení 03 </summary>
+
 # Cvičení 03 (09.10.2025) - Radiace a teplota
 - Cílem cvičení je vysvětlit si základní terminologii k tématu solární radiace, pochopení vztahu radiace a teploty vzduchu a otestovat si možnosti získání dat z jiných zdrojů než je ČHMÚ
 - __Na konci cvičení mám MS Excel soubor s novým listem kde srovnáme měsíční hodnoty solární radiace a teplot pro naši vybranou stanici__
@@ -135,6 +136,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   
 <details markdown="1">
 <summary> Cvičení 04 </summary>
+
 # Cvičení 04 (16.10.2025) - Srovnání průměrných měsíčních teplot za dvě normálová období
 - Cílem cvičení je vytvořit grafy průměrných měsíčních teplot pro dva třicetileté klimatické normály a porovnat hodnoty v těchto obdobích
 - __Na konci cvičení mám MS Excel soubor s novým listem NormalyTeploty, kde srovnáme data průměrných teplot vzduchu v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 and 1991-2020, včetně grafického zobrazení__
@@ -169,6 +171,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
   
 <details markdown="1"> 
 <summary> Cvičení 05 </summary>
+
 # Cvičení 05 (23.10.2025) - Změna klimatu - získání dat budoucího vývoje klimatu z portálu ClimRisk, teplotní gradient
 - Cílem cvičení je prověřit předpokládaný budoucí vývoj klimatu pro naši stanici a jejich srovnání s daty získanými z historických měření ČHMÚ
 - __Na konci cvičení mám MS Excel soubor s novými listy KlimatickyGradient a BudouciKlima kde srovnáme průměrné měsíční hodnoty normálových období 1961-1990 a 1991-2020 se získanými daty budoucího vývoje klimatu__
