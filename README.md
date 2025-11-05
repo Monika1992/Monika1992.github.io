@@ -228,12 +228,64 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <summary> Cvičení 06 </summary>
 
 # Cvičení 06 (30.10.2025) - Dotazy k seminární práci z fenologie, ukončení fenologických pozorování, doplnění k předcházejícím cvičením
+- Cílem cvičení je kontrola fenologického pozorování, dořešení nejasností, případné odevzdání hotové práce
+- __Na konci cvičení je mi jasné co musím udělat pro to abych získal/a zápočet za fenologickou seminárku a vím jakým způsobem postupovat u nedokončených pozorování__
 </details>
   
 <details markdown="1">
 <summary> Cvičení 07 </summary>
 
-# Cvičení 07 (06.11.2025) - Srážky 1
+# Cvičení 07 (06.11.2025) - Srážky, vlhkost vzduchu a výpar
+
+- Cílem cvičení je prověřit předpokládaný budoucí vývoj klimatu pro naši stanici a jejich srovnání s daty získanými z historických měření ČHMÚ
+- __Na konci cvičení mám MS Excel soubor s novými listy NormalySrazky a DnySnih3cm, kde srovnáme data srážkových úhrnů v jednotlivých měsících v rámci dvou klimatických normálů 1961-1990 and 1991-2020, včetně grafického zobrazení a počet dní se sněhovou pokrývkou nad 3 cm v současném a budoucím klimatu__
+
+## DŮLEŽITÉ ODKAZY ##
+- Data budoucího vývoje klimatu: [Dostupná na portálu ClimRisk](https://www.climrisk.cz/)
+
+## Postup práce ve cvičení ##
+1. Ve svém MS Excel souboru __PrijmeniJmeno_AgroMeteo.xlsx__ vytvořím dva nové listy a pojmenuji je __NormalySrazky__ a __DnySnih3cm__
+
+2. Příprava dat a vytvoření kontingenční tabulky - srážky
+     - 2.1 Na nový list __NormalySrazky__ nakopíruji data z listu __Srazky__, vyberu pouze časové úseky 1961-1990 a 1991 až 2020. Hodnoty pro první normál (rok, měsíc, teploty) nakopíruju od sloupce __A__, hodnoty pro druhý normál (rok, měsíc, teploty) od sloupce __E__
+     - 2.2 Pokud mi chybí záhlaví (pojmenování sloupců) tak ho u obou normálů doplním (__ROK, MĚSÍC, SUMA SRÁŽEK__)
+     - 2.3 Nyní vložíme tzv. kontingenční graf a kontingenční tabulku. Na záložce __Vložit__ vybereme __Kontingenční graf__ a následně možnost __Kontingenční graf a kontingenční tabulka__ (Na MacOS stačí jen __Kontingenční graf__ a pak už rovnou zadávám oblast dat)
+     - 2.3 V nabídce __Vybrat tabulku nebo oblast__ vybereme sloupce __A, B, C (data normálu 1961-1990)__ a potvrdíme výběr
+     - 2.4 Měla by se objevit plátna pro kontingenční tabulku a kontingenční graf (zatím prázdná)
+     - 2.5 V nabídce __Pole kontingenčního grafu__ přeneseme (drag and drop) položku __Měsíc__ (nebo odpovídající název vašeho sloupce s označením měsíce) do boxu __Osa kategorie__
+     - 2.6 Stejným způsobem přeneseme položku __Teplota__ do boxu __Hodnoty__
+     - 2.7 U boxu __Hodnoty__ změníme v nabídce __Nastavení polí hodnot...__ funkci na __Průměr__ a potvrdíme
+     - 2.8 Prohlédnu si vygenerovaný graf a vizuálně zhodnotím jestli dává smysl (např. jaké hodnoty jsou na osách X, Y, jestli vidím předpokládaný roční průběh teploty v jednotlivých měsících atd.). Pokud je vše OK, samotný graf můžu smazat.
+     - 2.9 hodnoty z vygenerované kontingenční tabulky vyberu a pomocí __Vložit hodnoty__ je nakopíruju na volné místo na listu (doporučuju sloupec __I__). Původní kontingenční tabulku smažu
+     - 2.10 Postup tvorby kontingenční tabulky zopakujeme pro druhé normálové období
+
+3. Vytvoření jednoho spojnicového grafu pro porovnání obou normálových období
+     - 3.1 Po vytvoření obou kontingenčních tabulek pro období 1961-1990 a 1991-2020 budeme zobrazovat obě řady měsíčních sum srážek v jednom sloupcovém grafu
+     - 3.2 Vybereme vstupní data a pomocí __Vložit__, __Sloupcový graf__ vložíme graf který dále upravíme do podoby kompletního grafu
+     - Přidáme název, popisy os, zdroj vstupních dat, jednotky, upravíme legendu tak aby byla čitelná
+  
+4. Stažení dat pro sněhovou pokrývku nad 3 cm z portálu ClimRisk
+     - 4.1 Otevřu portál [ClimRisk](https://www.climrisk.cz/)
+     - 4.2 Vyberu __Česká Republika__
+     - 4.3 V horním menu stránky vyberu položku __Stahování dat__ a vyplníme formulář pro stažení hodnot
+     - 4.4 Oblast: Česká republika, Podoblast: Okres ve kterém se nachází moje stanice, Region: Katastrální území mojí stanice (většinou stejné jako název obce)
+     - 4.5 V nabídce Agregace vyberte všechny měsíce leden-prosinec
+     - 4.6 V nabídce Klimatická projekce vyberte __1995 (1981-2010), 2005 (1991-2020), 2035 (2021-2050), 2065 (2051-2080)__
+     - 4.7 V nabídce Scénář vyberte některou z možností __SSP126, SSP245, SSP370 nebo SSP585__
+     - 4.8 V nabídce Klimatická charakteristika vyberte __Počet dní se sněhovou pokrývkou nad 3 cm__
+     - 4.9 V nabídce email zadejte vaši mailovou adresu a nechte si zaslat data
+       
+5. Zpracování dat sněhové pokrývky
+     - 5.1 Na nový list __DnySnih3cm__ nakopíruji data stažená z portálu ClimRisk
+     - 5.2 Data rozdělím do skupin podle jednotlivých normálů, zachovám pouze identifikaci měsíce a počet dní se sněhovou pokrývkou v měsících a za celý rok, zbývající data z ClimRisk smažu
+     - 5.3 Všchny stažené datové sady pro normálový období porovnám pomocí sloupcového grafu
+       
+## Otázky k interpretaci dat ##
+1. Jaké pozorujeme rozdíly ve srážkových úhrnech mezi dvěma historickými normály?
+2. Jak souvisí tyto změny s již posouzenými změnami teplot a změnami v zaznamenané a očekávané sněhové pokrývce?
+3. Jaké mohou tyto změny mít dopady v krajině v jednotlivých ročních obdobích?
+4. Pokud srovnáte výsledky na vaši stanici a výsledky některého z kolegů, jaké pozorujete rozdíly?
+
 </details>
   
 <details markdown="1">
