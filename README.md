@@ -291,7 +291,26 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <details markdown="1">
 <summary> Cvičení 08 </summary>
 
-# Cvičení 08 (13.11.2025) - Srážky 2
+# Cvičení 08 (13.11.2025) - Srážky - měření srážek, meteory, srážkový gradient
+
+- Cílem cvičení je doplnit teorii z přednášek k tématům srážek a meteorů a ověřit srážkový gradient na vybraných stanicích
+- __Na konci cvičení mám MS Excel soubor s novým listem SrazkovyGradient s opsanými daty pro vybrané stanice a vykresleným grafem gradientu__
+
+## DŮLEŽITÉ ODKAZY ##
+- Tabulky podnebí: [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf)
+
+1. Doplnění teorie ke srážkám a meteorům
+     - 1.0: ZDE bude k dispozici několik slidů ze cvičení k prostudování
+
+2. Popsání srážkového gradientu s pomocí Tabulek podnebí
+     - 2.0 Otevřu si Tabulky podnebí buď [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf) nebo si vezmu papírovou kopii
+     - 2.1 Opíšu si jména stanic a nadmořské výšky 10 stanic z __Abecedního seznamu srážkoměrných stanic__ (téměř na konci tabulek, před tabulkou č. 52) na list __SrazkovyGradient__ ve svém pracovním excelu
+     - 2.2 Nalistuji téměř na konci __Tabulku č. 52: Průměrný úhrn srážek (mm) za období 1901-1950__
+     - 2.3 Opíšu průměrné roční srážkové úhrny
+     - 2.4 V MS Excel vytvořím bodový graf z dat srážek a nadmořské výšky
+     - 2.5 Zobrazím spojnici trendu včetně funkce a s pomocí zobrazené funkce ověřím míru teplotního gradientu u mojí stanice
+     - 2.6 U grafu doplním veškeré náležitosti (Název, popisky os včetně jednotek, úplnou legendu, zdroj dat)
+
 </details>
   
 <details markdown="1">
@@ -310,8 +329,15 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <summary> Cvičení 11 </summary>
 
 # Cvičení 11 (04.12.2025) - Příprava na závěrečné prezentace
+
+# Důležité odkazy na zdroje dat #
+- Metadatový soubor pro vyhledání identifikátoru stanic: [Metadata ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/metadata/meta1.csv)
+- Datový repozitář ČHMÚ: [Datový repozitář ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/)
+- Tabulky podnebí: [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf)
+- Data budoucího vývoje klimatu: [Dostupná na portálu ClimRisk](https://www.climrisk.cz/)
+
 </details>
-  
+
 <details markdown="1">
 <summary> Cvičení 12 </summary>
 
