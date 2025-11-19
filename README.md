@@ -316,9 +316,32 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <details markdown="1">
 <summary> Cvičení 09 </summary>
 
-# Cvičení 09 (20.11.2025) - Charakteristické dny
+# Cvičení 09 (20.11.2025) - Tlak a vítr
 </details>
+
+- Cílem cvičení je získat a zpracovat data směru větru pro námi vybranou stanici a vytvořit větrnou růžici
+- __Na konci cvičení mám MS Excel soubor s novým listem SmerVetru s denními daty směru větru pro moji stanici a hotový graf větrné růžice__
+
+## DŮLEŽITÉ ODKAZY ##
+- Denní data směru větru pro naši stanici z repozitáře ČHMÚ [ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/daily/wind/)
+
+1. Stažení denních dat směru větru pro moji stanici
+     - 1.0 [ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/daily/wind/) vyhledejte pomocí ID stanice soubor který v názvu obsahuje parametr _D10_
+     - 1.1 Pokud se sem dostáváte z úvodní stránky repozitáře tak zvolte __daily__ a následně __wind__
   
+2. Zpracování stažených dat
+     - 2.0 Stažená data obsahují hodnoty směru větru v desetinných stupních
+     - 2.1 Data jsou oddělena čárkami a oddělovačem desetinných míst je tečka - musím data dostat do formátu čitelného mojí verzí MS Excel
+          - Možnost 1: Můj Excel je přenastaven nebo od začátku operuje s čárkami a tečkami - nic neměním a jen otevřu data a zkontroluji že vypadají v pořádku
+          - Možnost 2: Přenastavím Excel aby takto fungoval (potenciálně si rozbiju veškerá starší data, která zde již mám)
+          - Možnost 3: Použiju fígl s poznámkovým blokem - nahradím čárky za středníky (;) a následně tečky za čárky, data uložím jako csv a načtu do MS Excel
+     - 2.2 Pro další práci budeme potřebovat sloupce _DT_ a __VALUE__, zbývající můžeme smazat
+     - 2.3 Vytvoříme si nový sloupec __Měsíc__ a pomocí funkce do něj doplníme identifikátor měsíce do celé tabulky
+          - V české verzi MS Excel je vzorec: __=měsíc(A2)__
+          - V anglické verzi MS Excel je vzorec: __=month(A2)__
+      
+3. Tvorba grafu větrné růžice
+
 <details markdown="1">
 <summary> Cvičení 10 </summary>
 
