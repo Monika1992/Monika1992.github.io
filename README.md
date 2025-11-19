@@ -317,8 +317,6 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <summary> Cvičení 09 </summary>
 
 # Cvičení 09 (20.11.2025) - Tlak a vítr
-</details>
-
 - Cílem cvičení je získat a zpracovat data směru větru pro námi vybranou stanici a vytvořit větrnou růžici
 - __Na konci cvičení mám MS Excel soubor s novým listem SmerVetru s denními daty směru větru pro moji stanici a hotový graf větrné růžice__
 
@@ -341,6 +339,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
           - V anglické verzi MS Excel je vzorec: __=month(A2)__
       
 3. Tvorba grafu větrné růžice
+</details>
 
 <details markdown="1">
 <summary> Cvičení 10 </summary>
