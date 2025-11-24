@@ -337,17 +337,18 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
      - 2.3 Smažeme veškerá data před rokem 1961
      - 2.4 Vytvoříme si pomocný sloupec __SmerZaokrouhleni__, pomocí kterého zjednodušíme data pouze na základní směry větru
      - 2.5 Potřebujeme směry pro 45, 90, 135, 180, 225, 270, 315, 360 stupňů a také zachovat hodnoty 0, kterými se označuje bezvětří
-          - Vzorec pro českou verzi MS Excel: =KDYŽ(B2=0;"Calm";ZAOKR.DOLŮ(B2;45))
-          - Vzorec pro anglickou verzi MS Excel: =IF(B2=0,"Calm",ROUNDDOWN(B2,45))
+          - Vzorec pro českou verzi MS Excel: =KDYŽ(B2=0;\"Calm\";ZAOKR.DOLŮ(B2;45))
+          - Vzorec pro anglickou verzi MS Excel: =IF(B2=0,\"Calm\",ROUNDDOWN(B2,45))
+          - Vzorec pro některé verze MacOS MS Excel: =IF(B2=0,\"Calm\",FLOOR(B2,45))
      - 2.6 Funkční vzorec použijeme pro celá data
      - 2.7 Bokem na stejném listu připravíme pomocnou tabulku pro vykreslení větrné růžice
           - Nadepíšeme si sloupce __Směr, SměrText, Četnost, Podíl__
-          - Do sloupce __Směr__ opíšeme hodnoty 360, 45, 90, 135, 180, 225, 270, 315 a Calm
-          - Do sloupce __SměrText__ S, SV, V, JV, J, JZ, Z, SZ a Bezvětří
+          - Do sloupce __Směr__ opíšeme hodnoty 0, 360, 45, 90, 135, 180, 225, 270, 315 a Calm
+          - Do sloupce __SměrText__ S, S, SV, V, JV, J, JZ, Z, SZ a Bezvětří
           - Do sloupce __Četnost__ spočítáme kolikrát se daná zaokrouhlená hodnota vyskytuje v našem denním záznamu a použijeme výpočet pro všechny hodnoty směru
                - Vzorec využije funkci countif: __=COUNTIF(C:C;F4)__ (sečti všechny výskyty ve sloupci C, kdy se hodnota rovná vybrané buňce - např. F4)
           - Do sloupce __Podíl__ dopočítáme procentuální vyjádření četnosti
-               - Nejdříve si pro všechny vypočítané četnosti uděláme sumu hodnot (např. __=suma(H3:H11)__)
+               - Nejdříve si pro všechny vypočítané četnosti ve sloupci __Četnost__ uděláme sumu hodnot (např. __=suma(H3:H11)__)
                - Následně do sloupce __Podíl__ pro jednotlivé směry vypočítáme trojčlenkou procentuální zastoupení - abychom mohli vzorec roztáhnout pro všechny hodnoty musíme si zafixovat hodnotu sumy pomocí symbolů dolaru - např. __$H$12__
           - Výsledkem je hotová tabulka pro tvorbu grafu větrné růžice pro naši stanici
       
