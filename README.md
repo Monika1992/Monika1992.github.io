@@ -395,6 +395,8 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 ## Prezentaci pošlu jako PPT nebo PDF na monika.hlavsova@mendelu.cz do čtvrtka 11.12. 09:00​
 
+Vzorové rozložení prezentace si můžu prohlédnout [TADY](https://github.com/Monika1992/Monika1992.github.io/blob/main/PrijmeniPrijmeniPrijmeni_AgroMeteo_Vzor.pdf)
+
 </details>
 
 <details markdown="1">
