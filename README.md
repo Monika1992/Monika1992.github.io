@@ -378,6 +378,22 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 - Datový repozitář ČHMÚ: [Datový repozitář ZDE](https://opendata.chmi.cz/meteorology/climate/historical_csv/data/)
 - Tabulky podnebí: [ZDE](https://www.intersucho.cz/runtime/cache/files/original/t/tabulky-podnebi-final-verze-na-tisk-20251022101851.pdf)
 - Data budoucího vývoje klimatu: [Dostupná na portálu ClimRisk](https://www.climrisk.cz/)
+- Využiju podklady ze cvičení, zadání, hotové projekty z jednotlivých lekcí mohou být inspirace nebo "návod" jak připravit konkrétní grafy
+
+# Pravidla pro závěrečnou prezentaci
+
+## Připravím prezentaci dle následující kostry a pokynů
+   - __Slide 1__: Úvodní slide který obsahuje __Název__, __Jména všech prezentujících__ a __Datum__
+   - __Slide 2__: Představení stanic – 2-3 stanice podle velikosti vaší skupinky pro které popíšete __Polohu__, __Nadmořskou výška__, __Základní geografii__
+   - __Slidy 3 až 4 (5)__: Následují 2 (2 pokud jste dvojice, 3 pokud trojice) slidy ukazující vámi vybrané charakteristiky
+          - Každý prezentující komentuje jeden slide, všichni ze skupiny musí aktivně prezentovat
+          - Není to powerpoint-karaoke - na slidu je především čitelný a správně sestavený graf nebo grafy a maximálně nějaká odrážka s textem
+          - Zaměříte se na interpretaci toho co data a grafy ukazují (rozdíly či společné závěry pro vybrané stanice, změny v čase apod.)
+   - __Závěrečný slide__: Za každý slide s obsahem jeden bod s textovým shrnutím
+   - __Celková délka prezentace je maximálně 5 minut__
+   - Součástí cvičení je i zapojení ostatních - dotazy k prezentaci spolužáků, připomínky
+
+## Prezentaci pošlu jako PPT nebo PDF na monika.hlavsova@mendelu.cz do čtvrtka 11.12. 09:00​
 
 </details>
 
