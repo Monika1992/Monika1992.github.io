@@ -409,6 +409,8 @@ Vzorové rozložení prezentace si můžu prohlédnout [TADY](https://github.com
 <summary> Cvičení 12 </summary>
 
 # Cvičení 12 (11.12.2025) - Společné prezentace výsledků a zápočty
+
+![Showtime](https://github.com/Monika1992/Monika1992.github.io/blob/main/showtime.jpeg)
 </details>
 
 
