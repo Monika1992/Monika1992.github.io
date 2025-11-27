@@ -365,7 +365,13 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 <details markdown="1">
 <summary> Cvičení 10 </summary>
 
-# Cvičení 10 (27.11.2025) - Vlhkost vzduchu a výpar
+# Cvičení 10 (27.11.2025) - Opakování a doplnění znalostí z předcházejících cvičení
+
+# Odkazy pro zvídavé #
+- Infografiky k dopadů klimatické změny v ČR: [www.klimatickazmena.cz](https://www.klimatickazmena.cz/infografiky/)
+- Portál světové meteorologické organizace: [Atlas témat ZDE](https://wmo.int/topics)
+- Podklady portálu Fakta o klimatu: [Grafiky ZDE](https://faktaoklimatu.cz/temata/klimaticka-zmena)
+- Data budoucího vývoje klimatu: [Dostupná na portálu ClimRisk](https://www.climrisk.cz/)
 </details>
   
 <details markdown="1">
