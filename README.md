@@ -390,7 +390,7 @@ Kromě práce s pozorovanými daty se rovněž seznámíme s klimatickými scén
 
 ## Připravím prezentaci dle následující kostry a pokynů
    - __Slide 1__: Úvodní slide který obsahuje __Název__, __Jména všech prezentujících__ a __Datum__
-   - __Slide 2__: Představení stanic – 2-3 stanice podle velikosti vaší skupinky pro které popíšete __Polohu__, __Nadmořskou výška__, __Základní geografii__
+   - __Slide 2__: Představení stanic – 2-3 stanice podle velikosti vaší skupinky pro které popíšete __Polohu__, __Nadmořskou výšku__, __Základní geografii__
    - __Slidy 3 až 4 (5)__: Následují 2 (2 pokud jste dvojice, 3 pokud trojice) slidy ukazující vámi vybrané charakteristiky
           - Každý prezentující komentuje jeden slide, všichni ze skupiny musí aktivně prezentovat
           - Není to powerpoint-karaoke - na slidu je především čitelný a správně sestavený graf nebo grafy a maximálně nějaká odrážka s textem
